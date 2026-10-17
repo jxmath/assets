@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Johnny trigger | Jaxsons math</title>
+  <style>
+    html, body {
+      -ms-touch-action: none;
+      background: #5E5858;
+      padding: 0;
+      border: 0;
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
+  <script>
+    // stub ad/monetize SDK so game never errors
+    window.sdk = {
+      showBanner: function () {},
+      showAd: function () {},
+      showInterstitial: function () {},
+      preloadAd: function () {},
+      openStore: function () {}
+    };
+    window.SDK_OPTIONS = {
+      gameId: "",
+      onEvent: function () {}
+    };
+  </script>
+</head>
+<body>
+  <script>
+    window.$T_GAME_VERSION = "1.0.13";
+    window.$T_GAME_ARGS = {};
+    window.$T__RES__FILE = "resource/2default.res.json";
+    window.$T__THE__FILE = "resource/default.thm.json";
+  </script>
+  <div style="margin:auto;width:100%;height:100%;" class="egret-player"
+    data-entry-class="Main"
+    data-orientation="auto"
+    data-scale-mode="showAll"
+    data-frame-rate="60"
+    data-content-width="640"
+    data-content-height="1136"
+    data-multi-fingered="2"
+    data-show-fps="false"
+    data-show-log="false"
+    data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+  </div>
+  <script>
+    var loadScript = function (list, callback) {
+      var loaded = 0;
+      var loadNext = function () {
+        loadSingleScript(list[loaded], function () {
+          loaded++;
+          if (loaded >= list.length) callback();
+          else loadNext();
+        });
+      };
+      loadNext();
+    };
+    var loadSingleScript = function (src, callback) {
+      var s = document.createElement("script");
+      s.async = false;
+      s.src = src;
+      s.addEventListener("load", function onload() {
+        s.parentNode.removeChild(s);
+        s.removeEventListener("load", onload, false);
+        callback();
+      }, false);
+      s.addEventListener("error", function () {
+        console.error("failed to load", src);
+        callback();
+      }, false);
+      document.body.appendChild(s);
+    };
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "manifest.json?v=" + Date.now(), true);
+    xhr.addEventListener("load", function () {
+      var manifest = JSON.parse(xhr.response);
+      var list = manifest.initial.concat(manifest.game);
+      loadScript(list, function () {
+        egret.runEgret({
+          renderMode: "webgl",
+          audioType: 0,
+          calculateCanvasScaleFactor: function (context) {
+            var backingStore =
+              context.backingStorePixelRatio ||
+              context.webkitBackingStorePixelRatio ||
+              context.mozBackingStorePixelRatio ||
+              context.msBackingStorePixelRatio ||
+              context.oBackingStorePixelRatio ||
+              context.backingStorePixelRatio ||
+              1;
+            return (window.devicePixelRatio || 1) / backingStore;
+          }
+        });
+      });
+    });
+    xhr.send(null);
+  </script>
+</body>
+</html>
