@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Bowmasters | Jaxsons math</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <link rel="stylesheet" href="style/index.css"/>
+  <style>
+    html, body, #game { margin:0; padding:0; width:100%; height:100%; overflow:hidden; background:#000; }
+    #game { position:fixed; inset:0; }
+    #game canvas { display:block !important; width:100% !important; height:100% !important; }
+  </style>
+  <script src="customytgame.js"></script>
+  <script src="game.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      if (typeof window.runGame === "function") window.runGame();
+    });
+  </script>
+</head>
+<body>
+  <div id="game"></div>
+</body>
+</html>
