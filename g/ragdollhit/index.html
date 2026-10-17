@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Ragdoll Hit</title>
+  <script src="MobileDetect.js"></script>
+  <style>
+    html, body { margin:0; padding:0; width:100%; height:100%; overflow:hidden; background:#4D4D4D; }
+    #unity-container { position:fixed; inset:0; width:100%; height:100%; }
+    #unity-canvas { width:100%; height:100%; display:block; background:#4D4D4D; outline:none; }
+    #loading {
+      position:fixed; left:50%; top:50%; transform:translate(-50%,-50%);
+      color:#fff; font:15px/1.4 sans-serif; text-align:center; z-index:5;
+    }
+    #bar {
+      width:min(280px,80vw); height:14px; margin:12px auto 0;
+      background:rgba(255,255,255,0.15); border-radius:8px; overflow:hidden;
+    }
+    #bar > div { height:100%; width:0%; background:#7cfc7c; }
+    #err {
+      position:fixed; left:50%; top:12px; transform:translateX(-50%);
+      max-width:90vw; background:#f66; color:#000; padding:8px 12px;
+      border-radius:6px; font:13px sans-serif; display:none; z-index:20;
+    }
+  </style>
+  <script>
+    function pr() { return Promise.resolve(); }
+    function prFalse() { return Promise.resolve(false); }
+    window.PokiSDK = {
+      init: pr,
+      initWithVideoHB: pr,
+      happyTime: function () {},
+      gameLoadingStart: function () {},
+      gameLoadingFinished: function () {},
+      gameLoadingProgress: function () {},
+      gameplayStart: function () {},
+      gameplayStop: function () {},
+      commercialBreak: pr,
+      rewardedBreak: prFalse,
+      displayAd: function () {},
+      destroyAd: function () {},
+      customEvent: function () {},
+      getLanguage: function () { return "en"; },
+      getURLParam: function () { return ""; },
+      shareableURL: function () { return Promise.resolve(location.href); },
+      isAdBlocked: function () { return false; },
+      logError: function () {}
+    };
+    window.pokiReady = true;
+    window.pokiAdBlock = false;
+    window.commercialBreak = function () { return window.PokiSDK.commercialBreak(); };
+    window.rewardedBreak = function () { return window.PokiSDK.rewardedBreak(); };
+    window.shareableURL = function () { return window.PokiSDK.shareableURL(); };
+    window.properUnityStringify = function (v) {
+      try { return typeof v === "string" ? v : JSON.stringify(v); } catch (e) { return ""; }
+    };
+    window.initPokiBridge = function (name) {
+      if (!window.unityGame) {
+        setTimeout(function () { window.initPokiBridge(name); }, 100);
+        return;
+      }
+      window.pokiBridge = name;
+      try { window.unityGame.SendMessage(name, "ready"); } catch (e) {}
+      window.commercialBreak = function () {
+        return window.PokiSDK.commercialBreak().then(function () {
+          try { window.unityGame.SendMessage(name, "commercialBreakCompleted"); } catch (e) {}
+        });
+      };
+      window.rewardedBreak = function () {
+        return window.PokiSDK.rewardedBreak().then(function (ok) {
+          try { window.unityGame.SendMessage(name, "rewardedBreakCompleted", String(!!ok)); } catch (e) {}
+        });
+      };
+      window.shareableURL = function (opts) {
+        return window.PokiSDK.shareableURL(opts).then(function (url) {
+          try { window.unityGame.SendMessage(name, "shareableURLResolved", url); } catch (e) {}
+        }).catch(function () {
+          try { window.unityGame.SendMessage(name, "shareableURLRejected"); } catch (e) {}
+        });
+      };
+    };
+  </script>
+</head>
+<body>
+  <div id="err"></div>
+  <div id="unity-container">
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+  </div>
+  <div id="loading">
+    <div>Ragdoll Hit</div>
+    <div id="bar"><div id="progress"></div></div>
+  </div>
+  <script>
+    var canvas = document.getElementById("unity-canvas");
+    var loading = document.getElementById("loading");
+    var progress = document.getElementById("progress");
+    var errBox = document.getElementById("err");
+    var unityReady = false;
+
+    function showErr(m) {
+      errBox.style.display = "block";
+      errBox.textContent = m;
+      console.error(m);
+    }
+
+    function fit() {
+      var w = Math.max(2, window.innerWidth || document.documentElement.clientWidth || 960);
+      var h = Math.max(2, window.innerHeight || document.documentElement.clientHeight || 600);
+      canvas.style.width = w + "px";
+      canvas.style.height = h + "px";
+      if (!unityReady) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+    }
+    fit();
+    window.addEventListener("resize", fit);
+
+    var buildUrl = "Build";
+    var config = {
+      dataUrl: buildUrl + "/959bf1c60308f1c34bf072f43c3c17d4.data.unityweb",
+      frameworkUrl: buildUrl + "/3276aa7c11496bcc48eb6908f112f0c3.js.unityweb",
+      codeUrl: buildUrl + "/f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "Ericetto",
+      productName: "Ragdoll Hit",
+      productVersion: "0.1",
+      matchWebGLToCanvasSize: true,
+      devicePixelRatio: 1,
+      showBanner: function (msg, type) {
+        if (type === "error") showErr(msg);
+      }
+    };
+
+    var s = document.createElement("script");
+    s.src = buildUrl + "/v84.loader.js";
+    s.onerror = function () { showErr("Failed to load v84.loader.js"); };
+    s.onload = function () {
+      createUnityInstance(canvas, config, function (p) {
+        progress.style.width = Math.floor(p * 100) + "%";
+      }).then(function (instance) {
+        window.unityInstance = instance;
+        window.unityGame = instance;
+        unityReady = true;
+        loading.style.display = "none";
+        fit();
+      }).catch(function (e) {
+        showErr(String(e));
+      });
+    };
+    document.body.appendChild(s);
+  </script>
+</body>
+</html>
