@@ -190,5 +190,16 @@
    19922944,
    595242
   ]
+ },
+ "g/banjotooie/Banjo-Tooie (USA).n64": {
+  "parts": [
+   "Banjo-Tooie (USA).n64.part000",
+   "Banjo-Tooie (USA).n64.part001"
+  ],
+  "size": 33554432,
+  "sizes": [
+   19922944,
+   13631488
+  ]
  }
 }
