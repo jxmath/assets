@@ -2798,8 +2798,7 @@
     "title": "wordle",
     "category": "puzzle",
     "categories": [
-      "puzzle",
-      "flash"
+      "puzzle"
     ],
     "thumbnail": "images/thumbnails/wordle.jpg",
     "path": "g/wordle/index.html"
