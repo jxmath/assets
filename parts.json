@@ -88,5 +88,20 @@
    19922944,
    102504
   ]
+ },
+ "g/advancewarsdayofruin/1964 - Advance Wars - Days of Ruin (USA) (En,Fr,Es).nds": {
+  "parts": [
+   "1964 - Advance Wars - Days of Ruin (USA) (En,Fr,Es).nds.part000",
+   "1964 - Advance Wars - Days of Ruin (USA) (En,Fr,Es).nds.part001",
+   "1964 - Advance Wars - Days of Ruin (USA) (En,Fr,Es).nds.part002",
+   "1964 - Advance Wars - Days of Ruin (USA) (En,Fr,Es).nds.part003"
+  ],
+  "size": 67108864,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   7340032
+  ]
  }
 }
