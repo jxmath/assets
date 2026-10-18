@@ -227,5 +227,16 @@
    19922944,
    6129698
   ]
+ },
+ "g/boxingphysics2/Build/Boxing-Physics-2.asm.code.unityweb": {
+  "parts": [
+   "Boxing-Physics-2.asm.code.unityweb.part000",
+   "Boxing-Physics-2.asm.code.unityweb.part001"
+  ],
+  "size": 25641124,
+  "sizes": [
+   19922944,
+   5718180
+  ]
  }
 }
