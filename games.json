@@ -3,7 +3,6 @@
   {
     "id": "retrobowlmodded",
     "title": "retro bowl modded",
-    "category": "sports",
     "categories": [
       "sports"
     ],
@@ -13,7 +12,6 @@
   {
     "id": "bowmasters",
     "title": "bowmasters",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -23,7 +21,6 @@
   {
     "id": "basketbattle",
     "title": "Basket Battle",
-    "category": "sports",
     "categories": [
       "sports"
     ],
@@ -33,7 +30,6 @@
   {
     "id": "johnnytrigger",
     "title": "johnny trigger",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -43,7 +39,6 @@
   {
     "id": "retrobowlcollege",
     "title": "retro bowl college",
-    "category": "sports",
     "categories": [
       "sports"
     ],
@@ -53,7 +48,6 @@
   {
     "id": "drivemad",
     "title": "drive mad",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -63,7 +57,6 @@
   {
     "id": "ragdollarchers",
     "title": "ragdoll archers",
-    "category": "arcade",
     "categories": [
       "arcade",
       "2 player"
@@ -74,7 +67,6 @@
   {
     "id": "ragdollhit",
     "title": "ragdoll hit",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -84,7 +76,6 @@
   {
     "id": "picosschool",
     "title": "picos school",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -95,7 +86,6 @@
   {
     "id": "slope",
     "title": "slope",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -105,7 +95,6 @@
   {
     "id": "spacewaves",
     "title": "space waves",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -115,7 +104,6 @@
   {
     "id": "subwaysurfers",
     "title": "subway surfers",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -125,7 +113,6 @@
   {
     "id": "flappy",
     "title": "flappy bird",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -135,7 +122,6 @@
   {
     "id": "60seconds",
     "title": "60 seconds",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -145,7 +131,6 @@
   {
     "id": "papaspizzaria",
     "title": "papa's pizzaria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -156,7 +141,6 @@
   {
     "id": "papasburgeria",
     "title": "papa's burgeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -167,7 +151,6 @@
   {
     "id": "sm64",
     "title": "super mario 64",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -177,7 +160,6 @@
   {
     "id": "run3",
     "title": "run 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -188,7 +170,6 @@
   {
     "id": "bitlife",
     "title": "bitlife",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -198,7 +179,6 @@
   {
     "id": "tag",
     "title": "tag",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -208,7 +188,6 @@
   {
     "id": "crossy",
     "title": "crossy road",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -218,7 +197,6 @@
   {
     "id": "mc",
     "title": "minecraft [v1.5.2]",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -228,7 +206,6 @@
   {
     "id": "cookieclicker",
     "title": "cookie clicker",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -238,7 +215,6 @@
   {
     "id": "fivenightsatepsteins",
     "title": "five nights at epsteins",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -248,7 +224,6 @@
   {
     "id": "templerun2",
     "title": "temple run 2",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -258,7 +233,6 @@
   {
     "id": "ducklife4",
     "title": "duck life 4",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -269,7 +243,6 @@
   {
     "id": "dinogame",
     "title": "chrome dino game",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -279,7 +252,6 @@
   {
     "id": "jetpackjoyride",
     "title": "jetpack joyride",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -289,7 +261,6 @@
   {
     "id": "retrobowl",
     "title": "retro bowl",
-    "category": "sports",
     "categories": [
       "sports"
     ],
@@ -299,7 +270,6 @@
   {
     "id": "fruitninja",
     "title": "fruit ninja",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -309,7 +279,6 @@
   {
     "id": "doodlejump",
     "title": "doodle jump",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -319,7 +288,6 @@
   {
     "id": "2048",
     "title": "2048",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -329,7 +297,6 @@
   {
     "id": "tetris",
     "title": "tetris",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -339,7 +306,6 @@
   {
     "id": "fancypantsadventure",
     "title": "fancy pants adventure",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -350,7 +316,6 @@
   {
     "id": "happywheels",
     "title": "happy wheels",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -361,7 +326,6 @@
   {
     "id": "papashotdoggeria",
     "title": "papa's hotdoggeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -372,7 +336,6 @@
   {
     "id": "paperio2",
     "title": "paper.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -382,7 +345,6 @@
   {
     "id": "superhot",
     "title": "super hot",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -392,7 +354,6 @@
   {
     "id": "thebindingofisaac",
     "title": "the binding of isaac",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -403,7 +364,6 @@
   {
     "id": "townscaper",
     "title": "townscaper",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -413,7 +373,6 @@
   {
     "id": "tunnelrush",
     "title": "tunnel rush",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -423,7 +382,6 @@
   {
     "id": "themehotel",
     "title": "theme hotel",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -434,7 +392,6 @@
   {
     "id": "escapingtheprison",
     "title": "escaping the prison",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -445,7 +402,6 @@
   {
     "id": "stealingthediamond",
     "title": "stealing the diamond",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -456,7 +412,6 @@
   {
     "id": "infiltratingtheairship",
     "title": "infiltrating the airship",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -467,7 +422,6 @@
   {
     "id": "fleeingthecomplex",
     "title": "fleeing the complex",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -478,7 +432,6 @@
   {
     "id": "theimpossiblequiz",
     "title": "the impossible quiz",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -489,7 +442,6 @@
   {
     "id": "solitaire",
     "title": "solitaire",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -500,7 +452,6 @@
   {
     "id": "drifthunters",
     "title": "drift hunters",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -510,7 +461,6 @@
   {
     "id": "vex6",
     "title": "vex 6",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -520,7 +470,6 @@
   {
     "id": "amongus",
     "title": "among us fangame",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -530,7 +479,6 @@
   {
     "id": "surf",
     "title": "edge surf",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -540,7 +488,6 @@
   {
     "id": "motox3m",
     "title": "motox3m",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -550,7 +497,6 @@
   {
     "id": "fnaf",
     "title": "fnaf 1",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -560,7 +506,6 @@
   {
     "id": "fnaf-2",
     "title": "fnaf 2",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -570,7 +515,6 @@
   {
     "id": "fnaf-3",
     "title": "fnaf 3",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -580,7 +524,6 @@
   {
     "id": "fnaf-4",
     "title": "fnaf 4",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -590,7 +533,6 @@
   {
     "id": "riddleschool/riddleschool1",
     "title": "riddle school",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -601,7 +543,6 @@
   {
     "id": "riddleschool/riddleschool2",
     "title": "riddle school 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -612,7 +553,6 @@
   {
     "id": "riddleschool/riddleschool3",
     "title": "riddle school 3",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -623,7 +563,6 @@
   {
     "id": "riddleschool/riddleschool4",
     "title": "riddle school 4",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -634,7 +573,6 @@
   {
     "id": "riddleschool/riddleschool5",
     "title": "riddle school 5",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -645,7 +583,6 @@
   {
     "id": "riddleschool/riddletransfer",
     "title": "riddle transfer",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -656,7 +593,6 @@
   {
     "id": "riddleschool/riddletransfer2",
     "title": "riddle transfer 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -667,7 +603,6 @@
   {
     "id": "driftboss",
     "title": "drift boss",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -677,7 +612,6 @@
   {
     "id": "fnf",
     "title": "friday night funkin",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -687,7 +621,6 @@
   {
     "id": "pacman",
     "title": "pacman",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -697,7 +630,6 @@
   {
     "id": "papaspancakeria",
     "title": "papa's pancakeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -708,7 +640,6 @@
   {
     "id": "rooftop",
     "title": "rooftop snipers",
-    "category": "shooter",
     "categories": [
       "shooter",
       "2 player"
@@ -719,7 +650,6 @@
   {
     "id": "baldisbasics",
     "title": "baldi's basics",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -729,7 +659,6 @@
   {
     "id": "bobtherobber2",
     "title": "bob the robber 2",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -739,7 +668,6 @@
   {
     "id": "minesweeper",
     "title": "minesweeper",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -749,7 +677,6 @@
   {
     "id": "pokemonemerald",
     "title": "pokemon emerald",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -760,7 +687,6 @@
   {
     "id": "pokemonfirered",
     "title": "pokemon fire red",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -771,7 +697,6 @@
   {
     "id": "supermariobros",
     "title": "super mario bros",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -783,7 +708,6 @@
   {
     "id": "supermariokart",
     "title": "super mario kart",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -795,7 +719,6 @@
   {
     "id": "supermarioworld",
     "title": "super mario world",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -807,7 +730,6 @@
   {
     "id": "thereisnogame",
     "title": "there is no game",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -817,7 +739,6 @@
   {
     "id": "worldshardestgame",
     "title": "world's hardest game",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -828,7 +749,6 @@
   {
     "id": "castlevania",
     "title": "castlevania",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -839,7 +759,6 @@
   {
     "id": "donkeykong",
     "title": "donkey kong",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -850,7 +769,6 @@
   {
     "id": "drmario",
     "title": "dr mario",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "emulator",
@@ -862,7 +780,6 @@
   {
     "id": "metroid",
     "title": "metroid",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -873,7 +790,6 @@
   {
     "id": "supermariobros2",
     "title": "super mario bros 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -884,7 +800,6 @@
   {
     "id": "supermariobros3",
     "title": "super mario bros 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -896,7 +811,6 @@
   {
     "id": "thelegendofzelda",
     "title": "the legend of zelda",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -907,7 +821,6 @@
   {
     "id": "warioware",
     "title": "warioware",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -918,7 +831,6 @@
   {
     "id": "yoshisisland",
     "title": "yoshi's island",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -929,7 +841,6 @@
   {
     "id": "donkeykongland",
     "title": "donkey kong land",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -940,7 +851,6 @@
   {
     "id": "kirbysdreamland",
     "title": "kirby's dream land",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -951,7 +861,6 @@
   {
     "id": "supermarioland",
     "title": "super mario land",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -962,7 +871,6 @@
   {
     "id": "dogeminer",
     "title": "doge miner",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -972,7 +880,6 @@
   {
     "id": "dokidokiliteratureclub",
     "title": "doki doki literature club",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -982,7 +889,6 @@
   {
     "id": "tanukisunset",
     "title": "tanuki sunset",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -992,7 +898,6 @@
   {
     "id": "aquaparkslides",
     "title": "aquapark slides",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -1002,7 +907,6 @@
   {
     "id": "colorswitch",
     "title": "color switch",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -1012,7 +916,6 @@
   {
     "id": "papasfreezeria",
     "title": "papa's freezeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1023,7 +926,6 @@
   {
     "id": "btd/btd",
     "title": "btd",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -1034,7 +936,6 @@
   {
     "id": "btd/btd2",
     "title": "btd 2",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -1045,7 +946,6 @@
   {
     "id": "btd/btd3",
     "title": "btd 3",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -1056,7 +956,6 @@
   {
     "id": "btd/btd4",
     "title": "btd 4",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -1067,7 +966,6 @@
   {
     "id": "bomberman",
     "title": "bomberman",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -1078,7 +976,6 @@
   {
     "id": "fireemblem",
     "title": "fire emblem",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1089,7 +986,6 @@
   {
     "id": "iceclimber",
     "title": "ice climber",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -1101,7 +997,6 @@
   {
     "id": "mariokartsupercircuit",
     "title": "mario kart super circuit",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator"
@@ -1112,7 +1007,6 @@
   {
     "id": "pokemonleafgreen",
     "title": "pokemon leaf green",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1123,7 +1017,6 @@
   {
     "id": "pokemonruby",
     "title": "pokemon ruby",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1134,7 +1027,6 @@
   {
     "id": "pokemonsapphire",
     "title": "pokemon sapphire",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1145,7 +1037,6 @@
   {
     "id": "superstarsaga",
     "title": "superstar saga",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1156,7 +1047,6 @@
   {
     "id": "adofai",
     "title": "adofai",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -1166,7 +1056,6 @@
   {
     "id": "supersmashflash",
     "title": "super smash flash",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash",
@@ -1178,7 +1067,6 @@
   {
     "id": "supermeatboy",
     "title": "super meat boy",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1189,7 +1077,6 @@
   {
     "id": "stickmanhook",
     "title": "stickman hook",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -1199,7 +1086,6 @@
   {
     "id": "defendthetank",
     "title": "defend the tank",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -1209,7 +1095,6 @@
   {
     "id": "sortthecourt",
     "title": "sort the court",
-    "category": "strategy",
     "categories": [
       "strategy"
     ],
@@ -1219,7 +1104,6 @@
   {
     "id": "thisistheonlylevel",
     "title": "this is the only level",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1230,7 +1114,6 @@
   {
     "id": "run",
     "title": "run",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1241,7 +1124,6 @@
   {
     "id": "run2",
     "title": "run 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1252,7 +1134,6 @@
   {
     "id": "battleships",
     "title": "battleships",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -1263,7 +1144,6 @@
   {
     "id": "breakingthebank",
     "title": "breaking the bank",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -1274,7 +1154,6 @@
   {
     "id": "ducklife",
     "title": "duck life",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1285,7 +1164,6 @@
   {
     "id": "ducklife2",
     "title": "duck life 2",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1296,7 +1174,6 @@
   {
     "id": "ducklife3",
     "title": "duck life 3",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1307,7 +1184,6 @@
   {
     "id": "linerider",
     "title": "line rider",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1318,7 +1194,6 @@
   {
     "id": "mariocombat",
     "title": "mario combat",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash",
@@ -1330,7 +1205,6 @@
   {
     "id": "raftwars2",
     "title": "raft wars 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -1341,7 +1215,6 @@
   {
     "id": "spaceinvaders",
     "title": "space invaders",
-    "category": "shooter",
     "categories": [
       "shooter",
       "flash"
@@ -1352,7 +1225,6 @@
   {
     "id": "animalcrossingwildworld",
     "title": "animal crossing",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -1363,7 +1235,6 @@
   {
     "id": "mariokartds",
     "title": "mario kart ds",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator"
@@ -1374,7 +1245,6 @@
   {
     "id": "newsupermariobros",
     "title": "new super mario bros",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1385,7 +1255,6 @@
   {
     "id": "nintendogs",
     "title": "nintendogs",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -1396,7 +1265,6 @@
   {
     "id": "sm64ds",
     "title": "super mario 64 ds",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1407,7 +1275,6 @@
   {
     "id": "gunmayhem",
     "title": "gun mayhem",
-    "category": "shooter",
     "categories": [
       "shooter",
       "flash",
@@ -1419,7 +1286,6 @@
   {
     "id": "learntofly",
     "title": "learn to fly",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -1430,7 +1296,6 @@
   {
     "id": "rooftop2",
     "title": "rooftop snipers 2",
-    "category": "shooter",
     "categories": [
       "shooter",
       "2 player"
@@ -1441,7 +1306,6 @@
   {
     "id": "fireboywatergirl",
     "title": "fireboy and watergirl",
-    "category": "platformer",
     "categories": [
       "platformer",
       "2 player"
@@ -1452,7 +1316,6 @@
   {
     "id": "chibiknight",
     "title": "chibi knight",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -1463,7 +1326,6 @@
   {
     "id": "clusterrush",
     "title": "cluster rush",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -1473,7 +1335,6 @@
   {
     "id": "doodledefender",
     "title": "doodle defender",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -1484,7 +1345,6 @@
   {
     "id": "learntofly2",
     "title": "learn to fly 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -1495,7 +1355,6 @@
   {
     "id": "papasscooperia",
     "title": "papa's scooperia",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1506,7 +1365,6 @@
   {
     "id": "papassushiria",
     "title": "papa's sushiria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1517,7 +1375,6 @@
   {
     "id": "papaswingeria",
     "title": "papa's wingeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1528,7 +1385,6 @@
   {
     "id": "raftwars",
     "title": "raft wars",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -1539,7 +1395,6 @@
   {
     "id": "unfairmario",
     "title": "unfair mario",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1550,7 +1405,6 @@
   {
     "id": "boxingphysics2",
     "title": "boxing physics 2",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -1561,7 +1415,6 @@
   {
     "id": "aceattorney",
     "title": "ace attorney",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1572,7 +1425,6 @@
   {
     "id": "metalgearsolid",
     "title": "metal gear solid",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -1583,7 +1435,6 @@
   {
     "id": "mother3",
     "title": "mother 3",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1594,7 +1445,6 @@
   {
     "id": "pokemondiamond",
     "title": "pokemon diamond",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1605,7 +1455,6 @@
   {
     "id": "pokemonplatinum",
     "title": "pokemon platinum",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1616,7 +1465,6 @@
   {
     "id": "pokemonsoulsilver",
     "title": "pokemon soulsilver",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1627,7 +1475,6 @@
   {
     "id": "advancewars",
     "title": "advance wars",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1638,7 +1485,6 @@
   {
     "id": "banjopilot",
     "title": "banjo pilot",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -1649,7 +1495,6 @@
   {
     "id": "supermonkeyballjr",
     "title": "super monkey ball jr",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -1660,7 +1505,6 @@
   {
     "id": "theimpossiblequiz2",
     "title": "the impossible quiz 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -1671,7 +1515,6 @@
   {
     "id": "papasdonuteria",
     "title": "papa's donuteria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -1682,7 +1525,6 @@
   {
     "id": "fancypantsadventure2",
     "title": "fancy pants adventure 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -1693,7 +1535,6 @@
   {
     "id": "tinyfishing",
     "title": "tiny fishing",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -1703,7 +1544,6 @@
   {
     "id": "bigredbutton",
     "title": "big red button",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -1714,7 +1554,6 @@
   {
     "id": "achievementunlocked",
     "title": "achievement unlocked",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -1725,7 +1564,6 @@
   {
     "id": "kirbymassattack",
     "title": "kirby mass attack",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -1736,7 +1574,6 @@
   {
     "id": "sonicadvance",
     "title": "sonic advance",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1747,7 +1584,6 @@
   {
     "id": "wormsworldparty",
     "title": "worms world party",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator",
@@ -1759,7 +1595,6 @@
   {
     "id": "badicecream",
     "title": "bad ice cream",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash",
@@ -1771,7 +1606,6 @@
   {
     "id": "badicecream2",
     "title": "bad ice cream 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash",
@@ -1783,7 +1617,6 @@
   {
     "id": "badicecream3",
     "title": "bad ice cream 3",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash",
@@ -1795,7 +1628,6 @@
   {
     "id": "adventurecapitalist",
     "title": "adventure captialist",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -1805,7 +1637,6 @@
   {
     "id": "monkeymart",
     "title": "monkey mart",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -1815,7 +1646,6 @@
   {
     "id": "doom64",
     "title": "doom 64",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -1826,7 +1656,6 @@
   {
     "id": "banjokazooie",
     "title": "banjo kazooie",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1837,7 +1666,6 @@
   {
     "id": "donkeykong64",
     "title": "donkey kong 64",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -1848,7 +1676,6 @@
   {
     "id": "fzerox",
     "title": "f-zero x",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -1860,7 +1687,6 @@
   {
     "id": "kirby64",
     "title": "kirby 64",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -1872,7 +1698,6 @@
   {
     "id": "mariokart64",
     "title": "mario kart 64",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -1884,7 +1709,6 @@
   {
     "id": "marioparty",
     "title": "mario party",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -1896,7 +1720,6 @@
   {
     "id": "marioparty2",
     "title": "mario party 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -1908,7 +1731,6 @@
   {
     "id": "ocarinaoftime",
     "title": "ocarina of time",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -1919,7 +1741,6 @@
   {
     "id": "starfox64",
     "title": "star fox 64",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -1930,7 +1751,6 @@
   {
     "id": "supersmashbros",
     "title": "super smash bros",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -1942,7 +1762,6 @@
   {
     "id": "streetfighter2",
     "title": "street fighter 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -1954,7 +1773,6 @@
   {
     "id": "getawayshootout",
     "title": "getaway shootout",
-    "category": "shooter",
     "categories": [
       "shooter",
       "2 player"
@@ -1965,7 +1783,6 @@
   {
     "id": "rabbitsamurai",
     "title": "rabbit samurai",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -1975,7 +1792,6 @@
   {
     "id": "mariopartyds",
     "title": "mario party ds",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -1986,7 +1802,6 @@
   {
     "id": "professorlayton",
     "title": "professor layton",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "emulator"
@@ -1997,7 +1812,6 @@
   {
     "id": "scribblenauts",
     "title": "scribblenauts",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "emulator"
@@ -2008,7 +1822,6 @@
   {
     "id": "advancewars2",
     "title": "advance wars 2",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2019,7 +1832,6 @@
   {
     "id": "harvestmoon",
     "title": "harvest moon",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -2030,7 +1842,6 @@
   {
     "id": "mariotennis",
     "title": "mario tennis",
-    "category": "sports",
     "categories": [
       "sports",
       "emulator"
@@ -2041,7 +1852,6 @@
   {
     "id": "megamanzero",
     "title": "mega man zero",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2052,7 +1862,6 @@
   {
     "id": "pokemonmysterydungeon",
     "title": "mystery dungeon",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2063,7 +1872,6 @@
   {
     "id": "pokemonunbound",
     "title": "pokemon unbound",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2074,7 +1882,6 @@
   {
     "id": "papascheeseria",
     "title": "papa's cheeseria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -2085,7 +1892,6 @@
   {
     "id": "papascupcakeria",
     "title": "papa's cupcakeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -2096,7 +1902,6 @@
   {
     "id": "papasbakeria",
     "title": "papa's bakeria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -2107,7 +1912,6 @@
   {
     "id": "papaspastaria",
     "title": "papa's pastaria",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -2118,7 +1922,6 @@
   {
     "id": "gunmayhem2",
     "title": "gun mayhem 2",
-    "category": "shooter",
     "categories": [
       "shooter",
       "flash",
@@ -2130,7 +1933,6 @@
   {
     "id": "gunmayhemredux",
     "title": "gun mayhem redux",
-    "category": "shooter",
     "categories": [
       "shooter",
       "flash",
@@ -2142,7 +1944,6 @@
   {
     "id": "achievementunlocked2",
     "title": "achievement unlocked 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -2153,7 +1954,6 @@
   {
     "id": "achievementunlocked3",
     "title": "achievement unlocked 3",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -2164,7 +1964,6 @@
   {
     "id": "factoryballs",
     "title": "factory balls",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2175,7 +1974,6 @@
   {
     "id": "skywire",
     "title": "skywire",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2186,7 +1984,6 @@
   {
     "id": "supermarioflash",
     "title": "super mario flash",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -2197,7 +1994,6 @@
   {
     "id": "goldensun",
     "title": "golden sun",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2208,7 +2004,6 @@
   {
     "id": "metroidfusion",
     "title": "metroid fusion",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2219,7 +2014,6 @@
   {
     "id": "dbzsupersonicwarriors",
     "title": "dbz: supersonic warriors",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -2231,7 +2025,6 @@
   {
     "id": "warioland4",
     "title": "wario land 4",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2242,7 +2035,6 @@
   {
     "id": "ducklife5",
     "title": "duck life 5",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -2253,7 +2045,6 @@
   {
     "id": "learntofly3",
     "title": "learn to fly 3",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2264,7 +2055,6 @@
   {
     "id": "bloxors",
     "title": "bloxors",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -2275,7 +2065,6 @@
   {
     "id": "electricman2",
     "title": "electric man 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash",
@@ -2287,7 +2076,6 @@
   {
     "id": "portal",
     "title": "portal",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -2298,7 +2086,6 @@
   {
     "id": "portal2",
     "title": "portal 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -2309,7 +2096,6 @@
   {
     "id": "skywire2",
     "title": "skywire 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2320,7 +2106,6 @@
   {
     "id": "ducklife6",
     "title": "duck life 6",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -2330,7 +2115,6 @@
   {
     "id": "boxingrandom",
     "title": "boxing random",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -2341,7 +2125,6 @@
   {
     "id": "cellmachine",
     "title": "cell machine",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -2351,7 +2134,6 @@
   {
     "id": "stickmanboost",
     "title": "stickman boost",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2361,7 +2143,6 @@
   {
     "id": "vex3",
     "title": "vex 3",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2371,7 +2152,6 @@
   {
     "id": "vex4",
     "title": "vex 4",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2381,7 +2161,6 @@
   {
     "id": "skibidi1v100",
     "title": "skibidi toilet 1v100",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2391,7 +2170,6 @@
   {
     "id": "goldeneye007",
     "title": "golden eye 007",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator",
@@ -2403,7 +2181,6 @@
   {
     "id": "majorasmask",
     "title": "majora's mask",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2414,7 +2191,6 @@
   {
     "id": "papermario",
     "title": "paper mario",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2425,7 +2201,6 @@
   {
     "id": "mariogolf",
     "title": "mario golf",
-    "category": "sports",
     "categories": [
       "sports",
       "emulator",
@@ -2437,7 +2212,6 @@
   {
     "id": "pokemonstadium",
     "title": "pokemon stadium",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -2449,7 +2223,6 @@
   {
     "id": "excitebike64",
     "title": "excitebike 64",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -2461,7 +2234,6 @@
   {
     "id": "pokemonsnap",
     "title": "pokemon snap",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2472,7 +2244,6 @@
   {
     "id": "marioparty3",
     "title": "mario party 3",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -2484,7 +2255,6 @@
   {
     "id": "sonicadvance2",
     "title": "sonic advance 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2495,7 +2265,6 @@
   {
     "id": "bowsersinsidestory",
     "title": "bowsers inside story",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -2506,7 +2275,6 @@
   {
     "id": "spirittracks",
     "title": "spirit tracks",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2517,7 +2285,6 @@
   {
     "id": "thesims2",
     "title": "the sims 2",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -2528,7 +2295,6 @@
   {
     "id": "tetrisds",
     "title": "tetris ds",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "emulator"
@@ -2539,7 +2305,6 @@
   {
     "id": "sonicrush",
     "title": "sonic rush",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2550,7 +2315,6 @@
   {
     "id": "thesims3",
     "title": "the sims 3",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -2561,7 +2325,6 @@
   {
     "id": "superprincesspeach",
     "title": "super princess peach",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2572,7 +2335,6 @@
   {
     "id": "legobatman",
     "title": "lego batman",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2583,7 +2345,6 @@
   {
     "id": "doom2",
     "title": "doom 2",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -2594,7 +2355,6 @@
   {
     "id": "dukenukemadvance",
     "title": "duke nukem advance",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -2605,7 +2365,6 @@
   {
     "id": "mariopartyadvance",
     "title": "mario party advance",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -2616,7 +2375,6 @@
   {
     "id": "mariopinballland",
     "title": "mario pinball land",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -2627,7 +2385,6 @@
   {
     "id": "pacmanworld",
     "title": "pacman world",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2638,7 +2395,6 @@
   {
     "id": "rayman3",
     "title": "rayman 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2649,7 +2405,6 @@
   {
     "id": "shrek2",
     "title": "shrek 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2660,7 +2415,6 @@
   {
     "id": "simcity",
     "title": "simcity 2000",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -2671,7 +2425,6 @@
   {
     "id": "simpsonsroadrage",
     "title": "simpsons road rage",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator"
@@ -2682,7 +2435,6 @@
   {
     "id": "diddykongracing",
     "title": "diddy kong racing",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -2694,7 +2446,6 @@
   {
     "id": "waverace64",
     "title": "wave race 64",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator",
@@ -2706,7 +2457,6 @@
   {
     "id": "quest64",
     "title": "quest 64",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2717,7 +2467,6 @@
   {
     "id": "gex64",
     "title": "gex 64",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2728,7 +2477,6 @@
   {
     "id": "dukenukem64",
     "title": "duke nukem 64",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator",
@@ -2740,7 +2488,6 @@
   {
     "id": "mortalkombat4",
     "title": "mortal kombat 4",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -2752,7 +2499,6 @@
   {
     "id": "badpiggies",
     "title": "bad piggies",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2763,7 +2509,6 @@
   {
     "id": "supermarioflash2",
     "title": "super mario flash 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -2774,7 +2519,6 @@
   {
     "id": "swordsandsandals",
     "title": "swords and sandals",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2785,7 +2529,6 @@
   {
     "id": "swordsandsandals2",
     "title": "swords and sandals 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -2796,7 +2539,6 @@
   {
     "id": "wordle",
     "title": "wordle",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -2806,7 +2548,6 @@
   {
     "id": "vex",
     "title": "vex",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -2817,7 +2558,6 @@
   {
     "id": "vex2",
     "title": "vex 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -2828,7 +2568,6 @@
   {
     "id": "vex5",
     "title": "vex 5",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2838,7 +2577,6 @@
   {
     "id": "vex7",
     "title": "vex 7",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2848,7 +2586,6 @@
   {
     "id": "stack",
     "title": "stack",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -2858,7 +2595,6 @@
   {
     "id": "skibiditoiletattack",
     "title": "skibidi toilet attack",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -2868,7 +2604,6 @@
   {
     "id": "motox3mpool",
     "title": "motox3m pool",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -2878,7 +2613,6 @@
   {
     "id": "offlineparadise",
     "title": "offline paradise",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -2888,7 +2622,6 @@
   {
     "id": "linktothepast",
     "title": "link to the past",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2899,7 +2632,6 @@
   {
     "id": "donkeykongcountry",
     "title": "donkey kong country",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -2911,7 +2643,6 @@
   {
     "id": "donkeykongcountry2",
     "title": "donkey kong country 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -2923,7 +2654,6 @@
   {
     "id": "superbomberman",
     "title": "super bomberman",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -2935,7 +2665,6 @@
   {
     "id": "mariopaint",
     "title": "mario paint",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -2946,7 +2675,6 @@
   {
     "id": "megamanx",
     "title": "mega man x",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -2957,7 +2685,6 @@
   {
     "id": "supermariorpg",
     "title": "super mario rpg",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -2968,7 +2695,6 @@
   {
     "id": "supertennis",
     "title": "super tennis",
-    "category": "sports",
     "categories": [
       "sports",
       "emulator",
@@ -2980,7 +2706,6 @@
   {
     "id": "warioswoods",
     "title": "wario's woods",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -2991,7 +2716,6 @@
   {
     "id": "worldshardestgame2",
     "title": "worlds hardest game 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -3002,7 +2726,6 @@
   {
     "id": "bubbletanks2",
     "title": "bubble tanks 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3013,7 +2736,6 @@
   {
     "id": "chooseyourweapon",
     "title": "choose your weapon",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3024,7 +2746,6 @@
   {
     "id": "chooseyourweapon2",
     "title": "choose your weapon 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3035,7 +2756,6 @@
   {
     "id": "chooseyourweapon3",
     "title": "choose your weapon 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3046,7 +2766,6 @@
   {
     "id": "connect4",
     "title": "connect 4",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash",
@@ -3058,7 +2777,6 @@
   {
     "id": "electricbox",
     "title": "electric box",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -3069,7 +2787,6 @@
   {
     "id": "mctowerdefence2",
     "title": "mc tower defence 2",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -3080,7 +2797,6 @@
   {
     "id": "cars2",
     "title": "cars 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -3091,7 +2807,6 @@
   {
     "id": "cookingmama",
     "title": "cooking mama",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -3102,7 +2817,6 @@
   {
     "id": "adventuretime",
     "title": "adventure time",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -3113,7 +2827,6 @@
   {
     "id": "garfieldgetsreal",
     "title": "garfield gets real",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -3124,7 +2837,6 @@
   {
     "id": "wariowaretouched",
     "title": "warioware touched",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -3135,7 +2847,6 @@
   {
     "id": "kirbypowerpaintbrush",
     "title": "kirby power paintbrush",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -3146,7 +2857,6 @@
   {
     "id": "sonicandknuckles",
     "title": "sonic and knuckles",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -3157,7 +2867,6 @@
   {
     "id": "alteredbeast",
     "title": "altered beast",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -3169,7 +2878,6 @@
   {
     "id": "sonicspinball",
     "title": "sonic spinball",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -3180,7 +2888,6 @@
   {
     "id": "sonicthehedgehog3",
     "title": "sonic the hedgehog 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -3192,7 +2899,6 @@
   {
     "id": "streetsofrage",
     "title": "streets of rage",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -3204,7 +2910,6 @@
   {
     "id": "goldenaxe",
     "title": "golden axe",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator",
@@ -3216,7 +2921,6 @@
   {
     "id": "kirbyamazingmirror",
     "title": "kirby amazing mirror",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -3227,7 +2931,6 @@
   {
     "id": "championisland",
     "title": "champion island",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -3237,7 +2940,6 @@
   {
     "id": "supermarioconstruct",
     "title": "super mario construct",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3247,7 +2949,6 @@
   {
     "id": "clickerheroes",
     "title": "clicker heroes",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3257,7 +2958,6 @@
   {
     "id": "stairrace3d",
     "title": "stair race 3d",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3267,7 +2967,6 @@
   {
     "id": "slope2",
     "title": "slope 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "2 player"
@@ -3278,7 +2977,6 @@
   {
     "id": "paperio3d",
     "title": "paper.io 3d",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -3288,7 +2986,6 @@
   {
     "id": "motox3mspooky",
     "title": "motox3m spooky",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -3298,7 +2995,6 @@
   {
     "id": "motox3mwinter",
     "title": "motox3m winter",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -3308,7 +3004,6 @@
   {
     "id": "snake",
     "title": "snake",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3318,7 +3013,6 @@
   {
     "id": "papastacomia",
     "title": "papa's tacomia",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -3329,7 +3023,6 @@
   {
     "id": "ovo",
     "title": "ovo",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3339,7 +3032,6 @@
   {
     "id": "knifehit",
     "title": "knife hit",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3349,7 +3041,6 @@
   {
     "id": "cubefield",
     "title": "cubefield",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3359,7 +3050,6 @@
   {
     "id": "burgerandfrights",
     "title": "burger and frights",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -3369,7 +3059,6 @@
   {
     "id": "chess",
     "title": "chess",
-    "category": "strategy",
     "categories": [
       "strategy"
     ],
@@ -3379,7 +3068,6 @@
   {
     "id": "fnfmidfight",
     "title": "fnf mid fight masses",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3389,7 +3077,6 @@
   {
     "id": "thumbfighter",
     "title": "thumb fighter",
-    "category": "arcade",
     "categories": [
       "arcade",
       "2 player"
@@ -3400,7 +3087,6 @@
   {
     "id": "snowbattleio",
     "title": "snow battle.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -3410,7 +3096,6 @@
   {
     "id": "lazyjump3d",
     "title": "lazy jump 3d",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3420,7 +3105,6 @@
   {
     "id": "goball",
     "title": "go ball",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3430,7 +3114,6 @@
   {
     "id": "flippyfish",
     "title": "flippy fish",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3440,7 +3123,6 @@
   {
     "id": "shopempire",
     "title": "shop empire",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -3451,7 +3133,6 @@
   {
     "id": "monsterbrawl",
     "title": "monster brawl",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3462,7 +3143,6 @@
   {
     "id": "multitask",
     "title": "multitask",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3473,7 +3153,6 @@
   {
     "id": "shift",
     "title": "shift",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3484,7 +3163,6 @@
   {
     "id": "shift2",
     "title": "shift 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3495,7 +3173,6 @@
   {
     "id": "shift3",
     "title": "shift 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3506,7 +3183,6 @@
   {
     "id": "shift4",
     "title": "shift 4",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -3517,7 +3193,6 @@
   {
     "id": "monopoly",
     "title": "monopoly",
-    "category": "strategy",
     "categories": [
       "strategy",
       "emulator",
@@ -3529,7 +3204,6 @@
   {
     "id": "picrossds",
     "title": "picross ds",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "emulator"
@@ -3540,7 +3214,6 @@
   {
     "id": "wariowarediy",
     "title": "warioware diy",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -3551,7 +3224,6 @@
   {
     "id": "pizzatower",
     "title": "pizza tower",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3561,7 +3233,6 @@
   {
     "id": "territorialio",
     "title": "territorial.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -3571,7 +3242,6 @@
   {
     "id": "1v1lol",
     "title": "1v1lol",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -3581,7 +3251,6 @@
   {
     "id": "ballisticchickens",
     "title": "ballistic chickens",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3591,7 +3260,6 @@
   {
     "id": "basketbrosio",
     "title": "basketbros.io",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -3602,7 +3270,6 @@
   {
     "id": "mcclassic",
     "title": "minecraft classic",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -3612,7 +3279,6 @@
   {
     "id": "deathrun3d",
     "title": "death run 3d",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3622,7 +3288,6 @@
   {
     "id": "soccerrandom",
     "title": "soccer random",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -3633,7 +3298,6 @@
   {
     "id": "sprinter",
     "title": "sprinter",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3644,7 +3308,6 @@
   {
     "id": "tron",
     "title": "tron",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3655,7 +3318,6 @@
   {
     "id": "1on1soccer",
     "title": "1 on 1 soccer",
-    "category": "sports",
     "categories": [
       "sports",
       "flash",
@@ -3667,7 +3329,6 @@
   {
     "id": "badtimesimulator",
     "title": "bad time simulator",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3677,7 +3338,6 @@
   {
     "id": "amazingropepolice",
     "title": "amazing rope police",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -3687,7 +3347,6 @@
   {
     "id": "celeste",
     "title": "celeste",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3697,7 +3356,6 @@
   {
     "id": "justfalllol",
     "title": "just fall lol",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3707,7 +3365,6 @@
   {
     "id": "ngon",
     "title": "ngon",
-    "category": "arcade",
     "categories": [
       "arcade",
       "2 player"
@@ -3718,7 +3375,6 @@
   {
     "id": "rocketsoccer",
     "title": "rocket soccer",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -3729,7 +3385,6 @@
   {
     "id": "stickmanclimb",
     "title": "stickman climb",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3739,7 +3394,6 @@
   {
     "id": "osumania",
     "title": "osu!mania",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3749,7 +3403,6 @@
   {
     "id": "helixjump",
     "title": "helix jump",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3759,7 +3412,6 @@
   {
     "id": "dadish",
     "title": "dadish",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3769,7 +3421,6 @@
   {
     "id": "dadish2",
     "title": "dadish 2",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3779,7 +3430,6 @@
   {
     "id": "dadish3",
     "title": "dadish 3",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3789,7 +3439,6 @@
   {
     "id": "snowrider3d",
     "title": "snow rider 3d",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -3799,7 +3448,6 @@
   {
     "id": "tubejumpers",
     "title": "tube jumpers",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3809,7 +3457,6 @@
   {
     "id": "yohoho",
     "title": "yohoho.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -3819,7 +3466,6 @@
   {
     "id": "10minutestilldawn",
     "title": "10 minutes till dawn",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3829,7 +3475,6 @@
   {
     "id": "volleyballrandom",
     "title": "volleyball random",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -3840,7 +3485,6 @@
   {
     "id": "waterworks",
     "title": "waterworks",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -3850,7 +3494,6 @@
   {
     "id": "geometryrash",
     "title": "geometry rash",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3860,7 +3503,6 @@
   {
     "id": "holeio",
     "title": "hole.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -3870,7 +3512,6 @@
   {
     "id": "sandtrix",
     "title": "sandtrix",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3880,7 +3521,6 @@
   {
     "id": "shapeshipper",
     "title": "shapeshipper",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3890,7 +3530,6 @@
   {
     "id": "slopeball",
     "title": "slope ball",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3900,7 +3539,6 @@
   {
     "id": "stickmangolf",
     "title": "stickman golf",
-    "category": "sports",
     "categories": [
       "sports"
     ],
@@ -3910,7 +3548,6 @@
   {
     "id": "tabs",
     "title": "totally accurate battle sim",
-    "category": "strategy",
     "categories": [
       "strategy"
     ],
@@ -3920,7 +3557,6 @@
   {
     "id": "watermelongame",
     "title": "watermelon game",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3930,7 +3566,6 @@
   {
     "id": "wallsmash",
     "title": "wall smash",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3940,7 +3575,6 @@
   {
     "id": "crimsonfantasia",
     "title": "crimson fantasia",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -3950,7 +3584,6 @@
   {
     "id": "cuttherope",
     "title": "cut the rope",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -3961,7 +3594,6 @@
   {
     "id": "funnymadracing",
     "title": "funny mad racing",
-    "category": "racing",
     "categories": [
       "racing",
       "2 player"
@@ -3972,7 +3604,6 @@
   {
     "id": "gdlite",
     "title": "geometry dash lite",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -3982,7 +3613,6 @@
   {
     "id": "grandtheftgrotto",
     "title": "grand theft grotto",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -3993,7 +3623,6 @@
   {
     "id": "driftmania",
     "title": "drift mania",
-    "category": "racing",
     "categories": [
       "racing",
       "2 player"
@@ -4004,7 +3633,6 @@
   {
     "id": "risehigher",
     "title": "rise higher",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -4014,7 +3642,6 @@
   {
     "id": "burritobison",
     "title": "burrito bison",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -4024,7 +3651,6 @@
   {
     "id": "pool",
     "title": "pool",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4035,7 +3661,6 @@
   {
     "id": "redball1",
     "title": "redball",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4046,7 +3671,6 @@
   {
     "id": "redball3",
     "title": "redball 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4057,7 +3681,6 @@
   {
     "id": "redball4",
     "title": "redball 4",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4068,7 +3691,6 @@
   {
     "id": "redballv2",
     "title": "redball 4 vol 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4079,7 +3701,6 @@
   {
     "id": "redballv3",
     "title": "redball 4 vol 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4090,7 +3711,6 @@
   {
     "id": "roughdino",
     "title": "rough dino",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -4100,7 +3720,6 @@
   {
     "id": "timeshooter1",
     "title": "time shooter",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -4110,7 +3729,6 @@
   {
     "id": "timeshooter2",
     "title": "time shooter 2",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -4120,7 +3738,6 @@
   {
     "id": "timeshooter3",
     "title": "time shooter 3",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -4130,7 +3747,6 @@
   {
     "id": "battletoads",
     "title": "battletoads",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator",
@@ -4142,7 +3758,6 @@
   {
     "id": "castlevaniaiii",
     "title": "castlevania",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4153,7 +3768,6 @@
   {
     "id": "contra",
     "title": "contra",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator",
@@ -4165,7 +3779,6 @@
   {
     "id": "ducktales",
     "title": "duck tales",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4176,7 +3789,6 @@
   {
     "id": "kidicarus",
     "title": "kid icarus",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4187,7 +3799,6 @@
   {
     "id": "megaman2",
     "title": "mega man 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4198,7 +3809,6 @@
   {
     "id": "ninjagaiden",
     "title": "ninja gaiden",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4209,7 +3819,6 @@
   {
     "id": "punchout",
     "title": "punch out",
-    "category": "sports",
     "categories": [
       "sports",
       "emulator"
@@ -4220,7 +3829,6 @@
   {
     "id": "chronotrigger",
     "title": "chrono trigger",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4231,7 +3839,6 @@
   {
     "id": "contraiii",
     "title": "contra iii",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator",
@@ -4243,7 +3850,6 @@
   {
     "id": "donkeykongcountry3",
     "title": "donkey kong country 3",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator",
@@ -4255,7 +3861,6 @@
   {
     "id": "earthbound",
     "title": "earthbound",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4266,7 +3871,6 @@
   {
     "id": "finalfantasyvi",
     "title": "final fantasy iv",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4277,7 +3881,6 @@
   {
     "id": "fzero",
     "title": "f-zero",
-    "category": "racing",
     "categories": [
       "racing",
       "emulator"
@@ -4288,7 +3891,6 @@
   {
     "id": "supermetroid",
     "title": "super metroid",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4299,7 +3901,6 @@
   {
     "id": "banjotooie",
     "title": "banjo tooie",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4310,7 +3911,6 @@
   {
     "id": "harvestmoon64",
     "title": "harvest moon 64",
-    "category": "simulation",
     "categories": [
       "simulation",
       "emulator"
@@ -4321,7 +3921,6 @@
   {
     "id": "jetforcegemini",
     "title": "jet force gemini",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -4332,7 +3931,6 @@
   {
     "id": "mysticalninja",
     "title": "mystical ninja",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4343,7 +3941,6 @@
   {
     "id": "turokdinosaurhunter",
     "title": "turok dinosaur hunter",
-    "category": "shooter",
     "categories": [
       "shooter",
       "emulator"
@@ -4354,7 +3951,6 @@
   {
     "id": "yoshisstory",
     "title": "yoshi's story",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4365,7 +3961,6 @@
   {
     "id": "kirbysdreamland2",
     "title": "kirby's dreamland 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4376,7 +3971,6 @@
   {
     "id": "linksawakeningdx",
     "title": "link's awakening dx",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4387,7 +3981,6 @@
   {
     "id": "metroidii",
     "title": "metroid ii",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4398,7 +3991,6 @@
   {
     "id": "supermarioland2",
     "title": "super mario land 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4409,7 +4001,6 @@
   {
     "id": "wariolandii",
     "title": "wario land ii",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4420,7 +4011,6 @@
   {
     "id": "castlevaniaariaofsorrow",
     "title": "castlevania aria of sorrow",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4431,7 +4021,6 @@
   {
     "id": "finalfantasytacticsadvance",
     "title": "final fantasy tactics adv",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4442,7 +4031,6 @@
   {
     "id": "drilldozer",
     "title": "drill dozer",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4453,7 +4041,6 @@
   {
     "id": "advancewarsdayofruin",
     "title": "advance wars days of ruin",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4464,7 +4051,6 @@
   {
     "id": "castlevaniadawnofsorrow",
     "title": "castlevania dawn of sorrow",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4475,7 +4061,6 @@
   {
     "id": "castlevaniaorderofecclesia",
     "title": "order of ecclesia",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4486,7 +4071,6 @@
   {
     "id": "marioandluigipartnersintime",
     "title": "partners in time",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4497,7 +4081,6 @@
   {
     "id": "comixzone",
     "title": "comix zone",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4508,7 +4091,6 @@
   {
     "id": "eccothedolphin",
     "title": "ecco the dolphin",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4519,7 +4101,6 @@
   {
     "id": "gunstarheroes",
     "title": "gunstar heroes",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -4531,7 +4112,6 @@
   {
     "id": "phantasystariv",
     "title": "phantasy star iv",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4542,7 +4122,6 @@
   {
     "id": "rangerx",
     "title": "ranger x",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4553,7 +4132,6 @@
   {
     "id": "ristar",
     "title": "ristar",
-    "category": "adventure",
     "categories": [
       "adventure",
       "emulator"
@@ -4564,7 +4142,6 @@
   {
     "id": "shiningforce",
     "title": "shining force",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4575,7 +4152,6 @@
   {
     "id": "shinobiiii",
     "title": "shinobi iii",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4586,7 +4162,6 @@
   {
     "id": "sonicthehedgehog",
     "title": "sonic the hedgehog",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator"
@@ -4597,7 +4172,6 @@
   {
     "id": "sonicthehedgehog2",
     "title": "sonic the hedgehog 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "emulator",
@@ -4609,7 +4183,6 @@
   {
     "id": "streetsofrage2",
     "title": "streets of rage 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator",
@@ -4621,7 +4194,6 @@
   {
     "id": "vectorman",
     "title": "vectorman",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4632,7 +4204,6 @@
   {
     "id": "vectorman2",
     "title": "vectorman 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "emulator"
@@ -4643,7 +4214,6 @@
   {
     "id": "illusionofgaia",
     "title": "illusion of gaia",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4654,7 +4224,6 @@
   {
     "id": "pokemonyellow",
     "title": "pokemon yellow",
-    "category": "rpg",
     "categories": [
       "rpg",
       "emulator"
@@ -4665,7 +4234,6 @@
   {
     "id": "abudathealien",
     "title": "abuda the alien",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4676,7 +4244,6 @@
   {
     "id": "battlebeavers",
     "title": "battle beavers",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4687,7 +4254,6 @@
   {
     "id": "controlcraft2",
     "title": "control craft 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -4698,7 +4264,6 @@
   {
     "id": "ageofwar",
     "title": "age of war",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -4709,7 +4274,6 @@
   {
     "id": "ageofwar2",
     "title": "age of war 2",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -4720,7 +4284,6 @@
   {
     "id": "amorphous",
     "title": "amorphous",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4731,7 +4294,6 @@
   {
     "id": "bubblespinner",
     "title": "bubble spinner",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4742,7 +4304,6 @@
   {
     "id": "crushthecastle",
     "title": "crush the castle",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -4753,7 +4314,6 @@
   {
     "id": "crushthecastle2",
     "title": "crush the castle 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -4764,7 +4324,6 @@
   {
     "id": "epicbattlefantasy",
     "title": "epic battle fantasy",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4775,7 +4334,6 @@
   {
     "id": "epicbattlefantasy2",
     "title": "epic battle fantasy 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4786,7 +4344,6 @@
   {
     "id": "epicbattlefantasy3",
     "title": "epic battle fantasy 3",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4797,7 +4354,6 @@
   {
     "id": "fancypantsadventure3",
     "title": "fancy pants adventure 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4808,7 +4364,6 @@
   {
     "id": "floodrunner2",
     "title": "flood runner 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4819,7 +4374,6 @@
   {
     "id": "floodrunner3",
     "title": "flood runner 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4830,7 +4384,6 @@
   {
     "id": "dragonboy2",
     "title": "dragon boy 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4841,7 +4394,6 @@
   {
     "id": "neonrider",
     "title": "neon rider",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4852,7 +4404,6 @@
   {
     "id": "pandemic2",
     "title": "pandemic 2",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -4863,7 +4414,6 @@
   {
     "id": "stickwar",
     "title": "stick war",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -4874,7 +4424,6 @@
   {
     "id": "stickwar2",
     "title": "stick war 2",
-    "category": "strategy",
     "categories": [
       "strategy",
       "flash"
@@ -4885,7 +4434,6 @@
   {
     "id": "ultimateflashsonic",
     "title": "ultimate flash sonic",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -4896,7 +4444,6 @@
   {
     "id": "zombocalypse",
     "title": "zombocalypse",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -4907,7 +4454,6 @@
   {
     "id": "zombotron",
     "title": "zombotron",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4918,7 +4464,6 @@
   {
     "id": "zombotron2",
     "title": "zombotron 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash"
@@ -4929,7 +4474,6 @@
   {
     "id": "backrooms2d",
     "title": "backrooms 2d",
-    "category": "horror",
     "categories": [
       "horror"
     ],
@@ -4939,7 +4483,6 @@
   {
     "id": "basketrandom",
     "title": "basket random",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -4950,7 +4493,6 @@
   {
     "id": "csgoclicker",
     "title": "csgo clicker",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -4960,7 +4502,6 @@
   {
     "id": "doom",
     "title": "doom",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -4970,7 +4511,6 @@
   {
     "id": "funnyshooter2",
     "title": "funny shooter 2",
-    "category": "shooter",
     "categories": [
       "shooter"
     ],
@@ -4980,7 +4520,6 @@
   {
     "id": "gunfest",
     "title": "gun fest",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -4990,7 +4529,6 @@
   {
     "id": "infinitecraft",
     "title": "infinite craft",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -5000,7 +4538,6 @@
   {
     "id": "lowsadventures2",
     "title": "lows adventures 2",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -5010,7 +4547,6 @@
   {
     "id": "pakohighway",
     "title": "pako highway",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -5020,7 +4556,6 @@
   {
     "id": "recoil",
     "title": "recoil",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -5030,7 +4565,6 @@
   {
     "id": "run3plus",
     "title": "run 3 plus",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -5040,7 +4574,6 @@
   {
     "id": "slopecity",
     "title": "slope city",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -5050,7 +4583,6 @@
   {
     "id": "stateio",
     "title": "state.io",
-    "category": ".io",
     "categories": [
       ".io"
     ],
@@ -5060,7 +4592,6 @@
   {
     "id": "sudoku",
     "title": "sudoku",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -5070,7 +4601,6 @@
   {
     "id": "superherodrop",
     "title": "superhero drop",
-    "category": "puzzle",
     "categories": [
       "puzzle"
     ],
@@ -5080,7 +4610,6 @@
   {
     "id": "balloonrun",
     "title": "balloon run",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -5090,7 +4619,6 @@
   {
     "id": "crazytunnel3d",
     "title": "crazy tunnel 3d",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -5100,7 +4628,6 @@
   {
     "id": "eagler1.8",
     "title": "minecraft [v1.8]",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -5110,7 +4637,6 @@
   {
     "id": "geometrydashsky",
     "title": "geometry dash sky",
-    "category": "platformer",
     "categories": [
       "platformer"
     ],
@@ -5120,7 +4646,6 @@
   {
     "id": "wubzzysamazingadventure",
     "title": "wubzzys adventure",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5131,7 +4656,6 @@
   {
     "id": "golddiggerfrvr",
     "title": "gold digger frvr",
-    "category": "simulation",
     "categories": [
       "simulation"
     ],
@@ -5141,7 +4665,6 @@
   {
     "id": "hexgl",
     "title": "hexgl",
-    "category": "racing",
     "categories": [
       "racing"
     ],
@@ -5151,7 +4674,6 @@
   {
     "id": "houseofhazards",
     "title": "house of hazards",
-    "category": "platformer",
     "categories": [
       "platformer",
       "2 player"
@@ -5162,7 +4684,6 @@
   {
     "id": "pickcrafter",
     "title": "pick crafter",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -5172,7 +4693,6 @@
   {
     "id": "precisionclient",
     "title": "precision client",
-    "category": "adventure",
     "categories": [
       "adventure"
     ],
@@ -5182,7 +4702,6 @@
   {
     "id": "subwayrunner",
     "title": "subway runner",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -5192,7 +4711,6 @@
   {
     "id": "xx142-b2.exe",
     "title": "xx142-b2.exe",
-    "category": "arcade",
     "categories": [
       "arcade"
     ],
@@ -5202,7 +4720,6 @@
   {
     "id": "canopy",
     "title": "canopy",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5213,7 +4730,6 @@
   {
     "id": "cavechaos",
     "title": "cave chaos",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5224,7 +4740,6 @@
   {
     "id": "changetype",
     "title": "change type",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5235,7 +4750,6 @@
   {
     "id": "cheesedreams",
     "title": "cheese dreams",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5246,7 +4760,6 @@
   {
     "id": "chisel",
     "title": "chisel",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -5257,7 +4770,6 @@
   {
     "id": "chisel2",
     "title": "chisel 2",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -5268,7 +4780,6 @@
   {
     "id": "ditto",
     "title": "ditto",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5279,7 +4790,6 @@
   {
     "id": "feedme",
     "title": "feed me",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5290,7 +4800,6 @@
   {
     "id": "finalninja",
     "title": "final ninja",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5301,7 +4810,6 @@
   {
     "id": "frostbite",
     "title": "frost bite",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5312,7 +4820,6 @@
   {
     "id": "frostbite2",
     "title": "frost bite 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5323,7 +4830,6 @@
   {
     "id": "icebreaker",
     "title": "icebreaker",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -5334,7 +4840,6 @@
   {
     "id": "mutiny",
     "title": "mutiny",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5345,7 +4850,6 @@
   {
     "id": "nitromemustdie",
     "title": "nitrome must die",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5356,7 +4860,6 @@
   {
     "id": "oodlegobs",
     "title": "oodlegobs",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5367,7 +4870,6 @@
   {
     "id": "supertreadmill",
     "title": "super treadmill",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5378,7 +4880,6 @@
   {
     "id": "swindler",
     "title": "swindler",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5389,7 +4890,6 @@
   {
     "id": "testsubjectarena",
     "title": "test subject arena",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5400,7 +4900,6 @@
   {
     "id": "testsubjectcomplete",
     "title": "test subject complete",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5411,7 +4910,6 @@
   {
     "id": "twinshot",
     "title": "twin shot",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash",
@@ -5423,7 +4921,6 @@
   {
     "id": "twinshot2",
     "title": "twin shot 2",
-    "category": "adventure",
     "categories": [
       "adventure",
       "flash",
@@ -5435,7 +4932,6 @@
   {
     "id": "3line",
     "title": "three line",
-    "category": "puzzle",
     "categories": [
       "puzzle",
       "flash"
@@ -5446,7 +4942,6 @@
   {
     "id": "bikechamp",
     "title": "bike champ",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5457,7 +4952,6 @@
   {
     "id": "bikechamp2",
     "title": "bike champ 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5468,7 +4962,6 @@
   {
     "id": "corporationinc",
     "title": "corporation inc",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -5479,7 +4972,6 @@
   {
     "id": "shopempirefable",
     "title": "shop empire fable",
-    "category": "simulation",
     "categories": [
       "simulation",
       "flash"
@@ -5490,7 +4982,6 @@
   {
     "id": "cactusmccoy",
     "title": "cactus mccoy",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5501,7 +4992,6 @@
   {
     "id": "cactusmccoy2",
     "title": "cactus mccoy 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5512,7 +5002,6 @@
   {
     "id": "papalouie",
     "title": "papa louie",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5523,7 +5012,6 @@
   {
     "id": "papalouie2",
     "title": "papa louie 2",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5534,7 +5022,6 @@
   {
     "id": "papalouie3",
     "title": "papa louie 3",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5545,7 +5032,6 @@
   {
     "id": "steakandjake",
     "title": "steak and jake",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5556,7 +5042,6 @@
   {
     "id": "steakandjakemidnightmarch",
     "title": "steak and jake midnight",
-    "category": "platformer",
     "categories": [
       "platformer",
       "flash"
@@ -5567,7 +5052,6 @@
   {
     "id": "bouncybasketball",
     "title": "bouncy basketball",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -5578,7 +5062,6 @@
   {
     "id": "hobo",
     "title": "hobo",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5589,7 +5072,6 @@
   {
     "id": "hobo2",
     "title": "hobo 2",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5600,7 +5082,6 @@
   {
     "id": "hobo3",
     "title": "hobo 3",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5611,7 +5092,6 @@
   {
     "id": "hobo4",
     "title": "hobo 4",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5622,7 +5102,6 @@
   {
     "id": "hobo5",
     "title": "hobo 5",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5633,7 +5112,6 @@
   {
     "id": "hobo6",
     "title": "hobo 6",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5644,7 +5122,6 @@
   {
     "id": "hobo7",
     "title": "hobo 7",
-    "category": "arcade",
     "categories": [
       "arcade",
       "flash"
@@ -5655,7 +5132,6 @@
   {
     "id": "skullkid",
     "title": "skull kid",
-    "category": "flash",
     "categories": [
       "horror",
       "flash"
@@ -5666,7 +5142,6 @@
   {
     "id": "divineintervention",
     "title": "divine intervention",
-    "category": "shooter",
     "categories": [
       "shooter",
       "flash"
@@ -5677,7 +5152,6 @@
   {
     "id": "basketballlegends",
     "title": "basketball legends",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
@@ -5688,7 +5162,6 @@
   {
     "id": "basketballstars",
     "title": "basketball stars",
-    "category": "sports",
     "categories": [
       "sports",
       "2 player"
