@@ -179,5 +179,16 @@
    19922944,
    12802239
   ]
+ },
+ "g/balloonrun/Build/Balloon_Run.wasm": {
+  "parts": [
+   "Balloon_Run.wasm.part000",
+   "Balloon_Run.wasm.part001"
+  ],
+  "size": 20518186,
+  "sizes": [
+   19922944,
+   595242
+  ]
  }
 }
