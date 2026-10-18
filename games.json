@@ -39,16 +39,6 @@
     "path": "g/bouncybasketball/index.html"
   },
   {
-    "id": "basketrandom",
-    "title": "basket random",
-    "categories": [
-      "sports",
-      "2 player"
-    ],
-    "thumbnail": "images/thumbnails/basketrandom.jpg",
-    "path": "g/basketrandom/index.html"
-  },
-  {
     "id": "basketbattle",
     "title": "Basket Battle",
     "categories": [
@@ -173,6 +163,16 @@
     ],
     "thumbnail": "images/thumbnails/retrobowlmodded.jpg",
     "path": "g/retrobowlmodded/index.html"
+  },
+   {
+    "id": "basketrandom",
+    "title": "basket random",
+    "categories": [
+      "sports",
+      "2 player"
+    ],
+    "thumbnail": "images/thumbnails/basketrandom.jpg",
+    "path": "g/basketrandom/index.html"
   },
   {
     "id": "soccerrandom",
