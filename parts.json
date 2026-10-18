@@ -238,5 +238,16 @@
    19922944,
    5718180
   ]
+ },
+ "g/burritobison/Build/Web.data.unityweb": {
+  "parts": [
+   "Web.data.unityweb.part000",
+   "Web.data.unityweb.part001"
+  ],
+  "size": 24351071,
+  "sizes": [
+   19922944,
+   4428127
+  ]
  }
 }
