@@ -3611,5 +3611,12 @@
     "category": "sports",
     "thumbnail": "images/thumbnails/bouncybasketball.jpg",
     "path": "g/bouncybasketball/index.html"
+  },
+  {
+    "id": "hobo",
+    "title": "hobo",
+    "category": "fighting",
+    "thumbnail": "images/thumbnails/hobo.png",
+    "path": "g/hobo/index.html"
   }
 ]
