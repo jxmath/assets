@@ -1,5 +1,14 @@
 [
   {
+    "id": "jxmusic",
+    "title": "jx-music",
+    "categories": [
+      "apps"
+    ],
+    "thumbnail": "images/thumbnails/jxmusic.png",
+    "path": "g/jxmusic/index.html"
+  },
+  {
     "id": "soundboard",
     "title": "soundboard",
     "categories": [
@@ -164,7 +173,7 @@
     "thumbnail": "images/thumbnails/retrobowlmodded.jpg",
     "path": "g/retrobowlmodded/index.html"
   },
-   {
+  {
     "id": "basketrandom",
     "title": "basket random",
     "categories": [
