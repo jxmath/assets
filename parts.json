@@ -118,5 +118,16 @@
    19922944,
    6029326
   ]
+ },
+ "g/animalcrossingwildworld/animal-crossing-wild-world.zip": {
+  "parts": [
+   "animal-crossing-wild-world.zip.part000",
+   "animal-crossing-wild-world.zip.part001"
+  ],
+  "size": 21688982,
+  "sizes": [
+   19922944,
+   1766038
+  ]
  }
 }
