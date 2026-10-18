@@ -3681,5 +3681,12 @@
     "category": "sports",
     "thumbnail": "images/thumbnails/basketballlegends.png",
     "path": "g/basketballlegends/index.html"
+  },
+  {
+    "id": "basketballstars",
+    "title": "basketball stars",
+    "category": "sports",
+    "thumbnail": "images/thumbnails/basketballstars.png",
+    "path": "g/basketballstars/index.html"
   }
 ]
