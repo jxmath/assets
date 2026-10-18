@@ -3660,5 +3660,12 @@
     "category": "fighting",
     "thumbnail": "images/thumbnails/hobo7.png",
     "path": "g/hobo7/index.html"
+  },
+  {
+    "id": "skullkid",
+    "title": "skull kid",
+    "category": "horror",
+    "thumbnail": "images/thumbnails/skullkid.png",
+    "path": "g/skullkid/index.html"
   }
 ]
