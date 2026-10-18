@@ -201,5 +201,16 @@
    19922944,
    13631488
   ]
+ },
+ "g/basketbattle/Build/BasketBattleWeb.wasm": {
+  "parts": [
+   "BasketBattleWeb.wasm.part000",
+   "BasketBattleWeb.wasm.part001"
+  ],
+  "size": 32773782,
+  "sizes": [
+   19922944,
+   12850838
+  ]
  }
 }
