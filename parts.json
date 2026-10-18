@@ -129,5 +129,16 @@
    19922944,
    1766038
   ]
+ },
+ "g/aquaparkslides/Build/WaterParkSlides3Dx2.data.unityweb": {
+  "parts": [
+   "WaterParkSlides3Dx2.data.unityweb.part000",
+   "WaterParkSlides3Dx2.data.unityweb.part001"
+  ],
+  "size": 28397556,
+  "sizes": [
+   19922944,
+   8474612
+  ]
  }
 }
