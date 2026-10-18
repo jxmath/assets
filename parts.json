@@ -103,5 +103,20 @@
    19922944,
    7340032
   ]
+ },
+ "g/amazingropepolice/spider.data.unityweb": {
+  "parts": [
+   "spider.data.unityweb.part000",
+   "spider.data.unityweb.part001",
+   "spider.data.unityweb.part002",
+   "spider.data.unityweb.part003"
+  ],
+  "size": 65798158,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   6029326
+  ]
  }
 }
