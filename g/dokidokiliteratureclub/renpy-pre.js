@@ -347,34 +347,32 @@ Module.preRun = Module.preRun || [ ];
     async function loadGameZip() {
 
         try {
-            let response = await fetch('game.zip');
+            const parts = [
+                'game.zip.part000',
+                'game.zip.part001',
+                'game.zip.part002',
+                'game.zip.part003'
+            ];
 
-            if (!response.ok) {
-                reportError("Could not load game.zip: " + response.status + " " + response.statusText);
-            }
-
-            try {
-                gameZipSize = parseInt(response.headers.get('Content-Length'), 10);
-            } catch (e) {
-                // Ignore.
-            }
-
-            let reader = await response.body.getReader();
+            gameZipSize = 77772784;
 
             let f = FS.open('/game.zip', 'w');
 
-            while (true) {
-
-                let { done, value } = await reader.read();
-
-                if (done) {
-                    break;
+            for (let i = 0; i < parts.length; i++) {
+                let response = await fetch(parts[i]);
+                if (!response.ok) {
+                    reportError("Could not load game.zip: " + response.status + " " + response.statusText);
+                    FS.close(f);
+                    return;
                 }
-
-                FS.write(f, value, 0, value.length);
-                gameZipDownloaded += value.length;
-
-                updateDownloadProgress();
+                let reader = response.body.getReader();
+                while (true) {
+                    let { done, value } = await reader.read();
+                    if (done) break;
+                    FS.write(f, value, 0, value.length);
+                    gameZipDownloaded += value.length;
+                    updateDownloadProgress();
+                }
             }
 
             FS.close(f);
@@ -615,7 +613,7 @@ Module.preRun = Module.preRun || [ ];
         a.click();
 
         // delay clean-up to avoid iOS issue:
-        // The operation couldn’t be completed. (WebKitBlobResource error 1.)
+        // The operation couldnâ€™t be completed. (WebKitBlobResource error 1.)
         setTimeout(function () {
             window.URL.revokeObjectURL(a.href);
             document.body.removeChild(a);
