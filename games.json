@@ -3618,5 +3618,12 @@
     "category": "fighting",
     "thumbnail": "images/thumbnails/hobo.png",
     "path": "g/hobo/index.html"
+  },
+  {
+    "id": "hobo2",
+    "title": "hobo 2",
+    "category": "fighting",
+    "thumbnail": "images/thumbnails/hobo2.png",
+    "path": "g/hobo2/index.html"
   }
 ]
