@@ -20,5 +20,60 @@
    19922944,
    2556484
   ]
+ },
+ "g/60seconds/Build/Build.data.unityweb.0": {
+  "parts": [
+   "Build.data.unityweb.0.part000",
+   "Build.data.unityweb.0.part001"
+  ],
+  "size": 20971520,
+  "sizes": [
+   19922944,
+   1048576
+  ]
+ },
+ "g/60seconds/Build/Build.data.unityweb.1": {
+  "parts": [
+   "Build.data.unityweb.1.part000",
+   "Build.data.unityweb.1.part001"
+  ],
+  "size": 20971520,
+  "sizes": [
+   19922944,
+   1048576
+  ]
+ },
+ "g/60seconds/Build/Build.data.unityweb.2": {
+  "parts": [
+   "Build.data.unityweb.2.part000",
+   "Build.data.unityweb.2.part001"
+  ],
+  "size": 20971520,
+  "sizes": [
+   19922944,
+   1048576
+  ]
+ },
+ "g/60seconds/Build/Build.data.unityweb.3": {
+  "parts": [
+   "Build.data.unityweb.3.part000",
+   "Build.data.unityweb.3.part001"
+  ],
+  "size": 20971520,
+  "sizes": [
+   19922944,
+   1048576
+  ]
+ },
+ "g/60seconds/Build/Build.data.unityweb.4": {
+  "parts": [
+   "Build.data.unityweb.4.part000",
+   "Build.data.unityweb.4.part001"
+  ],
+  "size": 20971520,
+  "sizes": [
+   19922944,
+   1048576
+  ]
  }
 }
