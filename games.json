@@ -3646,5 +3646,12 @@
     "category": "fighting",
     "thumbnail": "images/thumbnails/hobo5.png",
     "path": "g/hobo5/index.html"
+  },
+  {
+    "id": "hobo6",
+    "title": "hobo 6",
+    "category": "fighting",
+    "thumbnail": "images/thumbnails/hobo6.png",
+    "path": "g/hobo6/index.html"
   }
 ]
