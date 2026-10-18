@@ -249,5 +249,18 @@
    19922944,
    4428127
   ]
+ },
+ "g/cars2/Cars 2 (Europe) (En,Es) (NDSi Enhanced) [b].zip": {
+  "parts": [
+   "Cars 2 (Europe) (En,Es) (NDSi Enhanced) [b].zip.part000",
+   "Cars 2 (Europe) (En,Es) (NDSi Enhanced) [b].zip.part001",
+   "Cars 2 (Europe) (En,Es) (NDSi Enhanced) [b].zip.part002"
+  ],
+  "size": 49818419,
+  "sizes": [
+   19922944,
+   19922944,
+   9972531
+  ]
  }
 }
