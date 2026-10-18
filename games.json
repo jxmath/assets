@@ -3667,5 +3667,12 @@
     "category": "horror",
     "thumbnail": "images/thumbnails/skullkid.png",
     "path": "g/skullkid/index.html"
+  },
+  {
+    "id": "divineintervention",
+    "title": "divine intervention",
+    "category": "shooter",
+    "thumbnail": "images/thumbnails/divineintervention.png",
+    "path": "g/divineintervention/index.html"
   }
 ]
