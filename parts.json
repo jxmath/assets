@@ -1,0 +1,24 @@
+{
+ "g/10minutestilldawn/Build/10MinutesTillDawnWebGL.data.unityweb": {
+  "parts": [
+   "10MinutesTillDawnWebGL.data.unityweb.part000",
+   "10MinutesTillDawnWebGL.data.unityweb.part001"
+  ],
+  "size": 27343110,
+  "sizes": [
+   19922944,
+   7420166
+  ]
+ },
+ "g/10minutestilldawn/Build/10MinutesTillDawnWebGL.wasm.code.unityweb": {
+  "parts": [
+   "10MinutesTillDawnWebGL.wasm.code.unityweb.part000",
+   "10MinutesTillDawnWebGL.wasm.code.unityweb.part001"
+  ],
+  "size": 22479428,
+  "sizes": [
+   19922944,
+   2556484
+  ]
+ }
+}
