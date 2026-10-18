@@ -212,5 +212,20 @@
    19922944,
    12850838
   ]
+ },
+ "g/bowsersinsidestory/Mario & Luigi - Bowser's Inside Story (Europe) (En,Fr,De,Es,It).zip": {
+  "parts": [
+   "Mario & Luigi - Bowser's Inside Story (Europe) (En,Fr,De,Es,It).zip.part000",
+   "Mario & Luigi - Bowser's Inside Story (Europe) (En,Fr,De,Es,It).zip.part001",
+   "Mario & Luigi - Bowser's Inside Story (Europe) (En,Fr,De,Es,It).zip.part002",
+   "Mario & Luigi - Bowser's Inside Story (Europe) (En,Fr,De,Es,It).zip.part003"
+  ],
+  "size": 65898530,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   6129698
+  ]
  }
 }
