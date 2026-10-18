@@ -3674,5 +3674,12 @@
     "category": "shooter",
     "thumbnail": "images/thumbnails/divineintervention.png",
     "path": "g/divineintervention/index.html"
+  },
+  {
+    "id": "basketballlegends",
+    "title": "basketball legends",
+    "category": "sports",
+    "thumbnail": "images/thumbnails/basketballlegends.png",
+    "path": "g/basketballlegends/index.html"
   }
 ]
