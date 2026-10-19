@@ -702,5 +702,16 @@
    19922944,
    623555
   ]
+ },
+ "g/papasscooperia/papasscooperia.swf": {
+  "parts": [
+   "papasscooperia.swf.part000",
+   "papasscooperia.swf.part001"
+  ],
+  "size": 20620227,
+  "sizes": [
+   19922944,
+   697283
+  ]
  }
 }
