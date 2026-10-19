@@ -415,5 +415,16 @@
    19922944,
    5387469
   ]
+ },
+ "g/fancypantsadventure3/FPAWorld3.swf": {
+  "parts": [
+   "FPAWorld3.swf.part000",
+   "FPAWorld3.swf.part001"
+  ],
+  "size": 35359245,
+  "sizes": [
+   19922944,
+   15436301
+  ]
  }
 }
