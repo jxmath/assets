@@ -748,5 +748,20 @@
    19922944,
    10932019
   ]
+ },
+ "g/pokemonsoulsilver/pokemon-soulsilver.zip": {
+  "parts": [
+   "pokemon-soulsilver.zip.part000",
+   "pokemon-soulsilver.zip.part001",
+   "pokemon-soulsilver.zip.part002",
+   "pokemon-soulsilver.zip.part003"
+  ],
+  "size": 60760073,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   991241
+  ]
  }
 }
