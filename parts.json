@@ -448,5 +448,16 @@
    19922944,
    13725570
   ]
+ },
+ "g/fruitninja/vendors.bundle.js": {
+  "parts": [
+   "vendors.bundle.js.part000",
+   "vendors.bundle.js.part001"
+  ],
+  "size": 23611606,
+  "sizes": [
+   19922944,
+   3688662
+  ]
  }
 }
