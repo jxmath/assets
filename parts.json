@@ -606,5 +606,20 @@
    19922944,
    7908129
   ]
+ },
+ "g/marioandluigipartnersintime/Mario & Luigi - Partners in Time (USA) (Rev 1).nds": {
+  "parts": [
+   "Mario & Luigi - Partners in Time (USA) (Rev 1).nds.part000",
+   "Mario & Luigi - Partners in Time (USA) (Rev 1).nds.part001",
+   "Mario & Luigi - Partners in Time (USA) (Rev 1).nds.part002",
+   "Mario & Luigi - Partners in Time (USA) (Rev 1).nds.part003"
+  ],
+  "size": 67108864,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   7340032
+  ]
  }
 }
