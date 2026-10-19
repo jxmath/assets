@@ -292,5 +292,16 @@
    19922944,
    7340032
   ]
+ },
+ "g/crazytunnel3d/Build/CrazyTunnel3D-g-1.data.unityweb": {
+  "parts": [
+   "CrazyTunnel3D-g-1.data.unityweb.part000",
+   "CrazyTunnel3D-g-1.data.unityweb.part001"
+  ],
+  "size": 21006248,
+  "sizes": [
+   19922944,
+   1083304
+  ]
  }
 }
