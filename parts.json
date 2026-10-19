@@ -437,5 +437,16 @@
    19922944,
    14602873
   ]
+ },
+ "g/fnf/assets/videos/videos/toyCommercial.mp4": {
+  "parts": [
+   "toyCommercial.mp4.part000",
+   "toyCommercial.mp4.part001"
+  ],
+  "size": 33648514,
+  "sizes": [
+   19922944,
+   13725570
+  ]
  }
 }
