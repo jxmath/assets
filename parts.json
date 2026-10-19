@@ -494,5 +494,16 @@
    19922944,
    3121363
   ]
+ },
+ "g/gdlite/Build/GeometryDashLite.data.unityweb": {
+  "parts": [
+   "GeometryDashLite.data.unityweb.part000",
+   "GeometryDashLite.data.unityweb.part001"
+  ],
+  "size": 25106751,
+  "sizes": [
+   19922944,
+   5183807
+  ]
  }
 }
