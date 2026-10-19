@@ -643,5 +643,16 @@
    19922944,
    5515275
   ]
+ },
+ "g/marioparty3/Mario Party 3 (USA).zip": {
+  "parts": [
+   "Mario Party 3 (USA).zip.part000",
+   "Mario Party 3 (USA).zip.part001"
+  ],
+  "size": 25885408,
+  "sizes": [
+   19922944,
+   5962464
+  ]
  }
 }
