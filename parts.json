@@ -303,5 +303,29 @@
    19922944,
    1083304
   ]
+ },
+ "g/crimsonfantasia/Build/Crimson Fantasia [WebGL].data": {
+  "parts": [
+   "Crimson Fantasia [WebGL].data.part000",
+   "Crimson Fantasia [WebGL].data.part001",
+   "Crimson Fantasia [WebGL].data.part002"
+  ],
+  "size": 48175888,
+  "sizes": [
+   19922944,
+   19922944,
+   8330000
+  ]
+ },
+ "g/crimsonfantasia/Build/Crimson Fantasia [WebGL].wasm": {
+  "parts": [
+   "Crimson Fantasia [WebGL].wasm.part000",
+   "Crimson Fantasia [WebGL].wasm.part001"
+  ],
+  "size": 32457043,
+  "sizes": [
+   19922944,
+   12534099
+  ]
  }
 }
