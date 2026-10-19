@@ -327,5 +327,16 @@
    19922944,
    12534099
   ]
+ },
+ "g/donkeykong64/donkeykong64.zip": {
+  "parts": [
+   "donkeykong64.zip.part000",
+   "donkeykong64.zip.part001"
+  ],
+  "size": 27870280,
+  "sizes": [
+   19922944,
+   7947336
+  ]
  }
 }
