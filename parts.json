@@ -549,5 +549,16 @@
    19922944,
    13631488
   ]
+ },
+ "g/kirbymassattack/kirby-mass-attack.zip": {
+  "parts": [
+   "kirby-mass-attack.zip.part000",
+   "kirby-mass-attack.zip.part001"
+  ],
+  "size": 20186143,
+  "sizes": [
+   19922944,
+   263199
+  ]
  }
 }
