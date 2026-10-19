@@ -571,5 +571,16 @@
    19922944,
    9636395
   ]
+ },
+ "g/learntofly3/learn-to-fly-3.swf": {
+  "parts": [
+   "learn-to-fly-3.swf.part000",
+   "learn-to-fly-3.swf.part001"
+  ],
+  "size": 20365493,
+  "sizes": [
+   19922944,
+   442549
+  ]
  }
 }
