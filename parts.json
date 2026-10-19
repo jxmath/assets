@@ -582,5 +582,18 @@
    19922944,
    442549
   ]
+ },
+ "g/legobatman/LEGO Batman - The Videogame (Europe) (En,Fr,De,Es,It,Da).zip": {
+  "parts": [
+   "LEGO Batman - The Videogame (Europe) (En,Fr,De,Es,It,Da).zip.part000",
+   "LEGO Batman - The Videogame (Europe) (En,Fr,De,Es,It,Da).zip.part001",
+   "LEGO Batman - The Videogame (Europe) (En,Fr,De,Es,It,Da).zip.part002"
+  ],
+  "size": 50922189,
+  "sizes": [
+   19922944,
+   19922944,
+   11076301
+  ]
  }
 }
