@@ -459,5 +459,16 @@
    19922944,
    3688662
   ]
+ },
+ "g/funnymadracing/Build/TPG_FunnyMadRacing_V01a.data.unityweb": {
+  "parts": [
+   "TPG_FunnyMadRacing_V01a.data.unityweb.part000",
+   "TPG_FunnyMadRacing_V01a.data.unityweb.part001"
+  ],
+  "size": 37629002,
+  "sizes": [
+   19922944,
+   17706058
+  ]
  }
 }
