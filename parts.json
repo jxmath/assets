@@ -560,5 +560,16 @@
    19922944,
    263199
   ]
+ },
+ "g/kirbypowerpaintbrush/Kirby - Power Paintbrush (Europe) (En,Fr,De,Es,It).zip": {
+  "parts": [
+   "Kirby - Power Paintbrush (Europe) (En,Fr,De,Es,It).zip.part000",
+   "Kirby - Power Paintbrush (Europe) (En,Fr,De,Es,It).zip.part001"
+  ],
+  "size": 29559339,
+  "sizes": [
+   19922944,
+   9636395
+  ]
  }
 }
