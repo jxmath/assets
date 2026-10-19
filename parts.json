@@ -654,5 +654,16 @@
    19922944,
    5962464
   ]
+ },
+ "g/mariopartyds/Mario Party DS (Europe) (En,Fr,De,Es,It).zip": {
+  "parts": [
+   "Mario Party DS (Europe) (En,Fr,De,Es,It).zip.part000",
+   "Mario Party DS (Europe) (En,Fr,De,Es,It).zip.part001"
+  ],
+  "size": 28194853,
+  "sizes": [
+   19922944,
+   8271909
+  ]
  }
 }
