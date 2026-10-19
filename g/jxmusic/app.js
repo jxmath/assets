@@ -37,9 +37,16 @@ document.body.appendChild(audio);
 const $ = (id) => document.getElementById(id);
 const tip = $("tip");
 const songUrl = (id) => new URL("assets/songs/" + id + ".mp3", base).href;
-const imgUrl = (id) => new URL("assets/images/" + id + ".png", base).href;
-const imgUrlJpeg = (id) => new URL("assets/images/" + id + ".jpeg", base).href;
+const imgUrl = (id) => new URL("assets/images/" + id + ".jpeg", base).href;
+const imgUrlJpeg = (id) => new URL("assets/images/" + id + ".png", base).href;
 const imgFallback = (el, id) => { el.onerror = null; el.src = imgUrlJpeg(id); };
+document.addEventListener("error", (e) => {
+  const t = e.target;
+  const song = t && t.tagName === "IMG" && t.closest ? t.closest(".song") : null;
+  if (!song || t.dataset.fb) return;
+  t.dataset.fb = "1";
+  t.src = imgUrlJpeg(song.dataset.id);
+}, true);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => "&#" + c.charCodeAt(0) + ";");
 
 function fmt(t) {
@@ -73,7 +80,7 @@ function render() {
     box.innerHTML = list.slice((page - 1) * PER_PAGE, page * PER_PAGE).map((s) => {
       const on = liked.includes(s.id);
       return '<div class="song' + (current && current.id === s.id ? " playing" : "") + '" data-id="' + s.id + '">' +
-        '<div class="cover" data-act="play" data-tip="play this song"><img src="' + imgUrl(s.id) + '" alt="" loading="lazy" onerror="imgFallback(this, \'" + s.id + "\')"><span class="spinner"></span></div>' +
+        '<div class="cover" data-act="play" data-tip="play this song"><img src="' + imgUrl(s.id) + '" alt="" loading="lazy"><span class="spinner"></span></div>' +
         '<div class="info" data-act="play"><p>' + esc(s.title) + '</p><p class="artist">' + esc(s.artist) + "</p></div>" +
         '<button class="icon-btn" data-act="download" data-tip="download as mp3" aria-label="download">' + icons.download + "</button>" +
         '<button class="icon-btn' + (on ? " on" : "") + '" data-act="like" data-tip="' + (on ? "remove from liked songs" : "add to liked songs") + '" aria-label="like">' + (on ? icons.heart : icons.heartOutline) + "</button>" +
