@@ -505,5 +505,16 @@
    19922944,
    5183807
   ]
+ },
+ "g/geometrydashsky/index.wasm": {
+  "parts": [
+   "index.wasm.part000",
+   "index.wasm.part001"
+  ],
+  "size": 26059464,
+  "sizes": [
+   19922944,
+   6136520
+  ]
  }
 }
