@@ -763,5 +763,16 @@
    19922944,
    991241
   ]
+ },
+ "g/pokemonstadium/Pokemon Stadium (USA) (Rev A).zip": {
+  "parts": [
+   "Pokemon Stadium (USA) (Rev A).zip.part000",
+   "Pokemon Stadium (USA) (Rev A).zip.part001"
+  ],
+  "size": 27823938,
+  "sizes": [
+   19922944,
+   7900994
+  ]
  }
 }
