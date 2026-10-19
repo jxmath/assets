@@ -735,5 +735,18 @@
    19922944,
    8001173
   ]
+ },
+ "g/pokemonplatinum/pokemon-platinum.zip": {
+  "parts": [
+   "pokemon-platinum.zip.part000",
+   "pokemon-platinum.zip.part001",
+   "pokemon-platinum.zip.part002"
+  ],
+  "size": 50777907,
+  "sizes": [
+   19922944,
+   19922944,
+   10932019
+  ]
  }
 }
