@@ -25,7 +25,9 @@ document.body.appendChild(audio);
 const $ = (id) => document.getElementById(id);
 const tip = $("tip");
 const songUrl = (id) => new URL("assets/songs/" + id + ".mp3", base).href;
-const imgUrl = (id) => new URL("assets/images/" + id + ".jpeg", base).href;
+const imgUrl = (id) => new URL("assets/images/" + id + ".png", base).href;
+const imgUrlJpeg = (id) => new URL("assets/images/" + id + ".jpeg", base).href;
+const imgFallback = (el, id) => { el.onerror = null; el.src = imgUrlJpeg(id); };
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => "&#" + c.charCodeAt(0) + ";");
 
 function fmt(t) {
@@ -59,7 +61,7 @@ function render() {
     box.innerHTML = list.slice((page - 1) * PER_PAGE, page * PER_PAGE).map((s) => {
       const on = liked.includes(s.id);
       return '<div class="song' + (current && current.id === s.id ? " playing" : "") + '" data-id="' + s.id + '">' +
-        '<div class="cover" data-act="play" data-tip="play this song"><img src="' + imgUrl(s.id) + '" alt="" loading="lazy"><span class="spinner"></span></div>' +
+        '<div class="cover" data-act="play" data-tip="play this song"><img src="' + imgUrl(s.id) + '" alt="" loading="lazy" onerror="imgFallback(this, \'" + s.id + "\')"><span class="spinner"></span></div>' +
         '<div class="info" data-act="play"><p>' + esc(s.title) + '</p><p class="artist">' + esc(s.artist) + "</p></div>" +
         '<button class="icon-btn" data-act="download" data-tip="download as mp3" aria-label="download">' + icons.download + "</button>" +
         '<button class="icon-btn' + (on ? " on" : "") + '" data-act="like" data-tip="' + (on ? "remove from liked songs" : "add to liked songs") + '" aria-label="like">' + (on ? icons.heart : icons.heartOutline) + "</button>" +
@@ -132,6 +134,7 @@ function play(id) {
   audio.src = songUrl(id);
   setLoading(true);
   audio.play().catch(() => setLoading(false));
+  $("now-img").onerror = () => imgFallback($("now-img"), id);
   $("now-img").src = imgUrl(id);
   $("now-title").textContent = song.title;
   $("now-artist").textContent = song.artist;
@@ -173,7 +176,7 @@ function updateMediaSession(song) {
   navigator.mediaSession.metadata = new MediaMetadata({
     title: song.title,
     artist: song.artist,
-    artwork: [{ src: imgUrl(song.id), sizes: "640x640", type: "image/jpeg" }]
+    artwork: [{ src: imgUrl(song.id), sizes: "640x640", type: "image/png" }]
   });
   navigator.mediaSession.setActionHandler("play", () => audio.play());
   navigator.mediaSession.setActionHandler("pause", () => audio.pause());
