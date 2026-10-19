@@ -632,5 +632,16 @@
    19922944,
    2164705
   ]
+ },
+ "g/marioparty2/marioparty2.zip": {
+  "parts": [
+   "marioparty2.zip.part000",
+   "marioparty2.zip.part001"
+  ],
+  "size": 25438219,
+  "sizes": [
+   19922944,
+   5515275
+  ]
  }
 }
