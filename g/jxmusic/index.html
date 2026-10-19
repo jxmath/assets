@@ -13,13 +13,13 @@
     <header>
       <h1 class="title">jx-music</h1>
       <div class="tabs">
-        <button class="tab active" data-view="all">all songs</button>
-        <button class="tab" data-view="liked">liked songs</button>
+        <button class="tab active" data-view="all" data-tip="show every song">all songs</button>
+        <button class="tab" data-view="liked" data-tip="show only songs you liked">liked songs</button>
       </div>
     </header>
     <div class="search-bar">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-      <input type="text" id="search" placeholder="search songs..." autocomplete="off">
+      <input type="text" id="search" data-tip="search by song or artist" placeholder="search through songs" autocomplete="off">
     </div>
     <div id="songs"></div>
     <div id="pagination"></div>
@@ -35,24 +35,25 @@
     </div>
     <div class="middle">
       <div class="controls">
-        <button class="icon-btn" id="shuffle" aria-label="shuffle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
-        <button class="icon-btn" id="prev" aria-label="previous"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
-        <button class="icon-btn" id="play" aria-label="play"></button>
-        <button class="icon-btn" id="next" aria-label="next"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
-        <button class="icon-btn" id="repeat" aria-label="repeat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4M3 11V9a3 3 0 013-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 01-3 3H3"/></svg></button>
+        <button class="icon-btn" id="shuffle" data-tip="shuffle: off" aria-label="shuffle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
+        <button class="icon-btn" id="prev" data-tip="previous song (restarts if past 3s)" aria-label="previous"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+        <button class="icon-btn" id="play" data-tip="play" aria-label="play"></button>
+        <button class="icon-btn" id="next" data-tip="next song" aria-label="next"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+        <button class="icon-btn" id="repeat" data-tip="repeat this song: off" aria-label="repeat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4M3 11V9a3 3 0 013-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 01-3 3H3"/></svg></button>
       </div>
       <div class="progress">
         <span id="cur">0:00</span>
-        <input type="range" id="seek" value="0" min="0" max="100" step="0.1" aria-label="seek">
+        <input type="range" id="seek" data-tip="drag to skip through the song" value="0" min="0" max="100" step="0.1" aria-label="seek">
         <span id="dur">0:00</span>
       </div>
     </div>
     <div class="right">
-      <button class="icon-btn" id="like-now" aria-label="like"></button>
-      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="volume">
+      <button class="icon-btn" id="like-now" data-tip="add to liked songs" aria-label="like"></button>
+      <input type="range" id="volume" data-tip="volume (synced with jaxsons math)" min="0" max="1" step="0.01" value="1" aria-label="volume">
     </div>
   </div>
 
+  <div id="tip" role="tooltip"></div>
   <script src="app.js"></script>
 </body>
 </html>

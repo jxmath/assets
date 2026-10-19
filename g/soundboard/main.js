@@ -50,6 +50,10 @@ function renderSounds(filter = '') {
                 currentAudios = [];
             }
             const audio = new Audio("https://cdn.jsdelivr.net/gh/genizymath/soundboard@main/"+sound.mp3);
+            audio.volume = typeof window.__jmVol === "number" ? window.__jmVol : 1;
+            audio.hidden = true;
+            audio.onended = audio.onpause = () => audio.remove();
+            document.body.appendChild(audio);
             audio.play();
             currentAudios.push(audio);
             image.classList.add('pressed');
@@ -229,7 +233,7 @@ ttsSpeak.onclick = () => {
 
     currentUtterance = new SpeechSynthesisUtterance(text);
     currentUtterance.voice  = getSelectedVoice();
-    currentUtterance.volume = parseFloat(ttsVolume.value);
+    currentUtterance.volume = parseFloat(ttsVolume.value) * (typeof window.__jmVol === "number" ? window.__jmVol : 1);
     currentUtterance.rate   = parseFloat(ttsRate.value);
     currentUtterance.pitch  = parseFloat(ttsPitch.value);
 

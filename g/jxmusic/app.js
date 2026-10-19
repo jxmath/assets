@@ -1,5 +1,4 @@
 const PER_PAGE = 30;
-const CACHE_NAME = "jx-music";
 const base = document.baseURI;
 
 const icons = {
@@ -8,7 +7,7 @@ const icons = {
   heart: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.3 3.2 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.8 0 6 3.8 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg>',
   heartOutline: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.3 3.2 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.8 0 6 3.8 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg>',
   download: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>',
-  done: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
+  spin: '<span class="spinner"></span>'
 };
 
 let songs = [];
@@ -21,7 +20,10 @@ let shuffle = false;
 let repeat = false;
 
 const audio = new Audio();
+audio.hidden = true;
+document.body.appendChild(audio);
 const $ = (id) => document.getElementById(id);
+const tip = $("tip");
 const songUrl = (id) => new URL("assets/songs/" + id + ".mp3", base).href;
 const imgUrl = (id) => new URL("assets/images/" + id + ".jpeg", base).href;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => "&#" + c.charCodeAt(0) + ";");
@@ -38,6 +40,13 @@ function visibleSongs() {
   return list.filter((s) => s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q));
 }
 
+function swap() {
+  const box = $("songs");
+  box.classList.remove("swap");
+  void box.offsetWidth;
+  box.classList.add("swap");
+}
+
 function render() {
   const list = visibleSongs();
   const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
@@ -50,13 +59,13 @@ function render() {
     box.innerHTML = list.slice((page - 1) * PER_PAGE, page * PER_PAGE).map((s) => {
       const on = liked.includes(s.id);
       return '<div class="song' + (current && current.id === s.id ? " playing" : "") + '" data-id="' + s.id + '">' +
-        '<img src="' + imgUrl(s.id) + '" alt="" loading="lazy" data-act="play">' +
+        '<div class="cover" data-act="play" data-tip="play this song"><img src="' + imgUrl(s.id) + '" alt="" loading="lazy"><span class="spinner"></span></div>' +
         '<div class="info" data-act="play"><p>' + esc(s.title) + '</p><p class="artist">' + esc(s.artist) + "</p></div>" +
-        '<button class="icon-btn" data-act="download" aria-label="download">' + icons.download + "</button>" +
-        '<button class="icon-btn' + (on ? " on" : "") + '" data-act="like" aria-label="like">' + (on ? icons.heart : icons.heartOutline) + "</button>" +
+        '<button class="icon-btn" data-act="download" data-tip="download as mp3" aria-label="download">' + icons.download + "</button>" +
+        '<button class="icon-btn' + (on ? " on" : "") + '" data-act="like" data-tip="' + (on ? "remove from liked songs" : "add to liked songs") + '" aria-label="like">' + (on ? icons.heart : icons.heartOutline) + "</button>" +
         "</div>";
     }).join("");
-    markDownloaded(list.slice((page - 1) * PER_PAGE, page * PER_PAGE));
+    if (current && audio.dataset.loading) setLoading(true);
   }
 
   const pag = $("pagination");
@@ -69,6 +78,7 @@ function render() {
       b.onclick = () => {
         page = i;
         render();
+        swap();
         window.scrollTo(0, 0);
       };
       pag.appendChild(b);
@@ -76,32 +86,41 @@ function render() {
   }
 }
 
-function markDownloaded(list) {
-  if (!("caches" in window)) return;
-  caches.open(CACHE_NAME).then((cache) => {
-    list.forEach((s) => {
-      cache.match(songUrl(s.id)).then((r) => {
-        const btn = r && document.querySelector('.song[data-id="' + s.id + '"] [data-act="download"]');
-        if (btn) btn.innerHTML = icons.done;
-      });
-    });
-  }).catch(() => {});
-}
-
 function download(id, btn) {
-  if (!("caches" in window)) return;
-  caches.open(CACHE_NAME)
-    .then((cache) => cache.addAll([songUrl(id), imgUrl(id)]))
-    .then(() => { btn.innerHTML = icons.done; })
-    .catch((e) => console.error("download failed", e));
+  const song = songs.find((s) => s.id === id);
+  if (!song || btn.disabled) return;
+  btn.disabled = true;
+  btn.innerHTML = icons.spin;
+  fetch(songUrl(id))
+    .then((r) => {
+      if (!r.ok) throw new Error(r.status);
+      return r.blob();
+    })
+    .then((b) => {
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(b);
+      a.download = (song.title + " - " + song.artist).replace(/[\/:*?"<>|]/g, "") + ".mp3";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    })
+    .catch((e) => console.error("download failed", e))
+    .finally(() => {
+      btn.disabled = false;
+      btn.innerHTML = icons.download;
+    });
 }
 
-function source(id) {
-  if (!("caches" in window)) return Promise.resolve(songUrl(id));
-  return caches.open(CACHE_NAME)
-    .then((cache) => cache.match(songUrl(id)))
-    .then((r) => (r ? r.blob().then((b) => URL.createObjectURL(b)) : songUrl(id)))
-    .catch(() => songUrl(id));
+function setLoading(on) {
+  if (on) audio.dataset.loading = "1";
+  else delete audio.dataset.loading;
+  $("play").classList.toggle("loading", on);
+  if (on) $("play").innerHTML = icons.spin;
+  else $("play").innerHTML = audio.paused ? icons.play : icons.pause;
+  document.querySelectorAll(".song.loading").forEach((el) => el.classList.remove("loading"));
+  const el = current && document.querySelector('.song[data-id="' + current.id + '"]');
+  if (el && on) el.classList.add("loading");
 }
 
 function play(id) {
@@ -110,11 +129,9 @@ function play(id) {
   queue = visibleSongs().map((s) => s.id);
   if (!queue.includes(id)) queue = songs.map((s) => s.id);
   current = song;
-  source(id).then((src) => {
-    if (audio.src.startsWith("blob:")) URL.revokeObjectURL(audio.src);
-    audio.src = src;
-    audio.play().catch(() => {});
-  });
+  audio.src = songUrl(id);
+  setLoading(true);
+  audio.play().catch(() => setLoading(false));
   $("now-img").src = imgUrl(id);
   $("now-title").textContent = song.title;
   $("now-artist").textContent = song.artist;
@@ -122,7 +139,7 @@ function play(id) {
   updateMediaSession(song);
   document.querySelectorAll(".song.playing").forEach((el) => el.classList.remove("playing"));
   const el = document.querySelector('.song[data-id="' + id + '"]');
-  if (el) el.classList.add("playing");
+  if (el) el.classList.add("playing", "loading");
 }
 
 function step(dir) {
@@ -148,6 +165,7 @@ function updateLikeNow() {
   const on = current && liked.includes(current.id);
   $("like-now").innerHTML = on ? icons.heart : icons.heartOutline;
   $("like-now").classList.toggle("on", !!on);
+  $("like-now").dataset.tip = current ? (on ? "remove from liked songs" : "add to liked songs") : "play a song to like it";
 }
 
 function updateMediaSession(song) {
@@ -179,6 +197,7 @@ document.querySelectorAll(".tab").forEach((t) => {
     view = t.dataset.view;
     page = 1;
     render();
+    swap();
   };
 });
 
@@ -193,19 +212,61 @@ $("play").onclick = () => {
 };
 $("prev").onclick = () => (audio.currentTime > 3 ? (audio.currentTime = 0) : step(-1));
 $("next").onclick = () => step(1);
-$("shuffle").onclick = () => $("shuffle").classList.toggle("on", (shuffle = !shuffle));
-$("repeat").onclick = () => $("repeat").classList.toggle("on", (repeat = !repeat));
+$("shuffle").onclick = () => {
+  $("shuffle").classList.toggle("on", (shuffle = !shuffle));
+  $("shuffle").dataset.tip = "shuffle: " + (shuffle ? "on" : "off");
+  showTip($("shuffle"));
+};
+$("repeat").onclick = () => {
+  $("repeat").classList.toggle("on", (repeat = !repeat));
+  $("repeat").dataset.tip = "repeat this song: " + (repeat ? "on" : "off");
+  showTip($("repeat"));
+};
 $("like-now").onclick = () => current && toggleLike(current.id);
 $("seek").oninput = () => audio.duration && (audio.currentTime = ($("seek").value / 100) * audio.duration);
-$("volume").value = localStorage.getItem("jx-music-volume") || 1;
-audio.volume = $("volume").value;
+function startVolume() {
+  if (typeof window.__jmVol === "number") return window.__jmVol;
+  const v = parseFloat(localStorage.getItem("jm-volume"));
+  return isNaN(v) ? 1 : v;
+}
+
+function syncVolume() {
+  const v = audio.muted ? 0 : audio.volume;
+  $("volume").value = v;
+  $("volume").dataset.tip = "volume " + Math.round(v * 100) + "% (synced with jaxsons math)";
+}
+
+audio.volume = startVolume();
+syncVolume();
+audio.addEventListener("volumechange", syncVolume);
 $("volume").oninput = () => {
-  audio.volume = $("volume").value;
-  localStorage.setItem("jx-music-volume", audio.volume);
+  const v = parseFloat($("volume").value);
+  audio.volume = v;
+  audio.muted = v === 0;
+  window.__jmVol = v;
+  try {
+    const site = parent !== window && parent.document.getElementById("vol-slider");
+    if (site) {
+      site.value = String(Math.round(v * 100));
+      site.dispatchEvent(new Event("input", { bubbles: true }));
+    } else localStorage.setItem("jm-volume", String(v));
+  } catch (e) {
+    localStorage.setItem("jm-volume", String(v));
+  }
+  showTip($("volume"));
 };
 
-audio.addEventListener("play", () => ($("play").innerHTML = icons.pause));
-audio.addEventListener("pause", () => ($("play").innerHTML = icons.play));
+audio.addEventListener("waiting", () => setLoading(true));
+audio.addEventListener("playing", () => setLoading(false));
+audio.addEventListener("canplay", () => audio.dataset.loading && audio.paused && setLoading(false));
+audio.addEventListener("error", () => setLoading(false));
+audio.addEventListener("play", () => !audio.dataset.loading && ($("play").innerHTML = icons.pause));
+audio.addEventListener("pause", () => {
+  if (audio.dataset.loading) return;
+  $("play").innerHTML = icons.play;
+  $("play").dataset.tip = "play";
+});
+audio.addEventListener("playing", () => ($("play").dataset.tip = "pause"));
 audio.addEventListener("timeupdate", () => {
   $("cur").textContent = fmt(audio.currentTime);
   $("dur").textContent = fmt(audio.duration);
@@ -226,8 +287,28 @@ fetch(new URL("songs.json", base))
   .then((data) => {
     const seen = new Set();
     songs = data.filter((s) => !seen.has(s.id) && seen.add(s.id));
+    $("search").placeholder = "search through " + songs.length + " songs";
     render();
+    swap();
   })
   .catch(() => {
     $("songs").innerHTML = '<p class="empty">could not load songs</p>';
   });
+
+function showTip(el) {
+  tip.textContent = el.dataset.tip;
+  const r = el.getBoundingClientRect();
+  const t = tip.getBoundingClientRect();
+  let top = r.top - t.height - 8;
+  if (top < 4) top = r.bottom + 8;
+  const left = Math.min(Math.max(4, r.left + r.width / 2 - t.width / 2), innerWidth - t.width - 4);
+  tip.style.transform = "translate(" + left + "px," + top + "px)";
+  tip.classList.add("show");
+}
+
+document.addEventListener("mouseover", (e) => {
+  const el = e.target.closest("[data-tip]");
+  if (el) showTip(el);
+  else tip.classList.remove("show");
+});
+document.addEventListener("mousedown", (e) => !e.target.closest("input[type=range]") && tip.classList.remove("show"));
