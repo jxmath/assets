@@ -277,5 +277,20 @@
    19922944,
    7340032
   ]
+ },
+ "g/castlevaniaorderofecclesia/3092 - Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds": {
+  "parts": [
+   "3092 - Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds.part000",
+   "3092 - Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds.part001",
+   "3092 - Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds.part002",
+   "3092 - Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds.part003"
+  ],
+  "size": 67108864,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   7340032
+  ]
  }
 }
