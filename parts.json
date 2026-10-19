@@ -713,5 +713,16 @@
    19922944,
    697283
   ]
+ },
+ "g/papermario/Paper Mario (USA).zip": {
+  "parts": [
+   "Paper Mario (USA).zip.part000",
+   "Paper Mario (USA).zip.part001"
+  ],
+  "size": 23013263,
+  "sizes": [
+   19922944,
+   3090319
+  ]
  }
 }
