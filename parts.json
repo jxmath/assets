@@ -516,5 +516,16 @@
    19922944,
    6136520
   ]
+ },
+ "g/houseofhazards/Build/HouseOfHazardsPoki.wasm.code.unityweb": {
+  "parts": [
+   "HouseOfHazardsPoki.wasm.code.unityweb.part000",
+   "HouseOfHazardsPoki.wasm.code.unityweb.part001"
+  ],
+  "size": 20402152,
+  "sizes": [
+   19922944,
+   479208
+  ]
  }
 }
