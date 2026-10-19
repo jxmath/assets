@@ -1,5 +1,17 @@
 const PER_PAGE = 30;
-const base = document.baseURI;
+let base = document.baseURI;
+
+// pin the CDN to the latest commit so new songs/images show up immediately
+const JM_REPO = "jxmath/assets";
+const cdnReady = fetch("https://api.github.com/repos/" + JM_REPO + "/commits?per_page=1", {
+  headers: { Accept: "application/vnd.github+json" }
+})
+  .then((r) => { if (!r.ok) throw new Error("github " + r.status); return r.json(); })
+  .then((d) => {
+    const sha = d && d[0] && d[0].sha;
+    if (sha) base = "https://cdn.jsdelivr.net/gh/" + JM_REPO + "@" + sha + "/g/jxmusic/";
+  })
+  .catch(() => {});
 
 const icons = {
   play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg>',
@@ -285,7 +297,7 @@ audio.addEventListener("ended", () => {
 $("play").innerHTML = icons.play;
 updateLikeNow();
 
-fetch(new URL("songs.json", base))
+cdnReady.then(() => fetch(new URL("songs.json", base)))
   .then((r) => r.json())
   .then((data) => {
     const seen = new Set();
