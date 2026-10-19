@@ -470,5 +470,29 @@
    19922944,
    17706058
   ]
+ },
+ "g/funnyshooter2/Build/FunnyShooter2_Poki.data.unityweb": {
+  "parts": [
+   "FunnyShooter2_Poki.data.unityweb.part000",
+   "FunnyShooter2_Poki.data.unityweb.part001",
+   "FunnyShooter2_Poki.data.unityweb.part002"
+  ],
+  "size": 42274254,
+  "sizes": [
+   19922944,
+   19922944,
+   2428366
+  ]
+ },
+ "g/funnyshooter2/Build/FunnyShooter2_Poki.wasm.unityweb": {
+  "parts": [
+   "FunnyShooter2_Poki.wasm.unityweb.part000",
+   "FunnyShooter2_Poki.wasm.unityweb.part001"
+  ],
+  "size": 23044307,
+  "sizes": [
+   19922944,
+   3121363
+  ]
  }
 }
