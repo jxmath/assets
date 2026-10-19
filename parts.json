@@ -665,5 +665,16 @@
    19922944,
    8271909
   ]
+ },
+ "g/ocarinaoftime/ocarinaoftime.zip": {
+  "parts": [
+   "ocarinaoftime.zip.part000",
+   "ocarinaoftime.zip.part001"
+  ],
+  "size": 26999427,
+  "sizes": [
+   19922944,
+   7076483
+  ]
  }
 }
