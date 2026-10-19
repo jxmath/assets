@@ -404,5 +404,16 @@
    19922944,
    2560761
   ]
+ },
+ "g/epicbattlefantasy3/548041_Epic_Battle_Fantasy_3_secu.swf": {
+  "parts": [
+   "548041_Epic_Battle_Fantasy_3_secu.swf.part000",
+   "548041_Epic_Battle_Fantasy_3_secu.swf.part001"
+  ],
+  "size": 25310413,
+  "sizes": [
+   19922944,
+   5387469
+  ]
  }
 }
