@@ -262,5 +262,20 @@
    19922944,
    9972531
   ]
+ },
+ "g/castlevaniadawnofsorrow/0121 - Castlevania - Dawn of Sorrow (USA).nds": {
+  "parts": [
+   "0121 - Castlevania - Dawn of Sorrow (USA).nds.part000",
+   "0121 - Castlevania - Dawn of Sorrow (USA).nds.part001",
+   "0121 - Castlevania - Dawn of Sorrow (USA).nds.part002",
+   "0121 - Castlevania - Dawn of Sorrow (USA).nds.part003"
+  ],
+  "size": 67108864,
+  "sizes": [
+   19922944,
+   19922944,
+   19922944,
+   7340032
+  ]
  }
 }
