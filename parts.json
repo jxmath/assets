@@ -538,5 +538,16 @@
    19922944,
    9855025
   ]
+ },
+ "g/jetforcegemini/Jet Force Gemini (USA).n64": {
+  "parts": [
+   "Jet Force Gemini (USA).n64.part000",
+   "Jet Force Gemini (USA).n64.part001"
+  ],
+  "size": 33554432,
+  "sizes": [
+   19922944,
+   13631488
+  ]
  }
 }
