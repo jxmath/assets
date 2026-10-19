@@ -724,5 +724,16 @@
    19922944,
    3090319
   ]
+ },
+ "g/pokemondiamond/pokemon-diamond.zip": {
+  "parts": [
+   "pokemon-diamond.zip.part000",
+   "pokemon-diamond.zip.part001"
+  ],
+  "size": 27924117,
+  "sizes": [
+   19922944,
+   8001173
+  ]
  }
 }
