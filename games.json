@@ -189,6 +189,16 @@
     "path": "g/tallio/index.html"
   },
   {
+    "id": "shipoio",
+    "title": "Shipo.io",
+    "categories": [
+      ".io",
+      "shooter"
+    ],
+    "thumbnail": "images/thumbnails/shipoio.png",
+    "path": "g/shipoio/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
