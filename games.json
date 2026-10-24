@@ -179,6 +179,15 @@
     "path": "g/pokeyball/index.html"
   },
   {
+    "id": "3dbowling",
+    "title": "3D Bowling",
+    "categories": [
+      "sports"
+    ],
+    "thumbnail": "images/thumbnails/3dbowling.png",
+    "path": "g/3dbowling/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
