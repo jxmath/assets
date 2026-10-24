@@ -170,6 +170,15 @@
     "path": "g/scrapmetal3/index.html"
   },
   {
+    "id": "spelunkyclassichd",
+    "title": "Spelunky Classic HD",
+    "categories": [
+      "platformer"
+    ],
+    "thumbnail": "images/thumbnails/spelunkyclassichd.png",
+    "path": "g/spelunkyclassichd/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
