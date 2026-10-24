@@ -218,6 +218,15 @@
     "path": "g/harvestio/index.html"
   },
   {
+    "id": "cannonballs3d",
+    "title": "Cannon Balls 3D",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/cannonballs3d.png",
+    "path": "g/cannonballs3d/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
