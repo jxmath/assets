@@ -161,6 +161,15 @@
     "path": "g/crazychicken3d/index.html"
   },
   {
+    "id": "scrapmetal3",
+    "title": "Scrap Metal 3",
+    "categories": [
+      "shooter"
+    ],
+    "thumbnail": "images/thumbnails/scrapmetal3.png",
+    "path": "g/scrapmetal3/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
