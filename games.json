@@ -236,6 +236,15 @@
     "path": "g/hidenseek/index.html"
   },
   {
+    "id": "bottlejump3d",
+    "title": "Bottle Jump 3D",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/bottlejump3d.png",
+    "path": "g/bottlejump3d/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
