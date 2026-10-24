@@ -28,6 +28,16 @@
     "path": "g/buckshotroulette/index.html"
   },
   {
+    "id": "gettingoverit",
+    "title": "Getting Over It",
+    "categories": [
+      "platformer",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/gettingoverit.png",
+    "path": "g/gettingoverit/index.html"
+  },
+  {
     "id": "schoolboyrunaway",
     "title": "Schoolboy Runaway",
     "categories": [
