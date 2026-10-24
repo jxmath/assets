@@ -179,6 +179,16 @@
     "path": "g/spelunkyclassichd/index.html"
   },
   {
+    "id": "tallio",
+    "title": "Tall.io",
+    "categories": [
+      ".io",
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/tallio.png",
+    "path": "g/tallio/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
