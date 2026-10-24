@@ -170,6 +170,15 @@
     "path": "g/scrapmetal3/index.html"
   },
   {
+    "id": "pokeyball",
+    "title": "Pokey Ball",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/pokeyball.png",
+    "path": "g/pokeyball/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
