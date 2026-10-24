@@ -78,16 +78,6 @@
     "path": "g/kindergarten3/index.html"
   },
   {
-    "id": "yanderesimulator",
-    "title": "Yandere Simulator",
-    "categories": [
-      "simulation",
-      "ports"
-    ],
-    "thumbnail": "images/thumbnails/yanderesimulator.png",
-    "path": "g/yanderesimulator/index.html"
-  },
-  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
@@ -315,7 +305,7 @@
     "id": "drivemad",
     "title": "drive mad",
     "categories": [
-      "arcade"
+      "racing"
     ],
     "thumbnail": "images/thumbnails/drivemad.jpg",
     "path": "g/drivemad/index.html"
@@ -333,7 +323,7 @@
     "id": "subwaysurfers",
     "title": "subway surfers",
     "categories": [
-      "platformer"
+      "arcade"
     ],
     "thumbnail": "images/thumbnails/subwaysurfers.jpeg",
     "path": "g/subwaysurfers/index.html"
@@ -437,7 +427,7 @@
     "id": "cookieclicker",
     "title": "cookie clicker",
     "categories": [
-      "arcade"
+      "simulation"
     ],
     "thumbnail": "images/thumbnails/cookieclick.jpg",
     "path": "g/cookieclicker/index.html"
@@ -520,7 +510,8 @@
     "id": "fnaf",
     "title": "fnaf 1",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/fnaf.jpg",
     "path": "g/fnaf/index.html"
@@ -529,7 +520,8 @@
     "id": "fnaf-2",
     "title": "fnaf 2",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/fnaf2.jpg",
     "path": "g/fnaf-2/index.html"
@@ -538,7 +530,8 @@
     "id": "fnaf-3",
     "title": "fnaf 3",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/fnaf3.jpg",
     "path": "g/fnaf-3/index.html"
@@ -547,7 +540,8 @@
     "id": "fnaf-4",
     "title": "fnaf 4",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/fnaf4.jpg",
     "path": "g/fnaf-4/index.html"
@@ -556,7 +550,8 @@
     "id": "eagler1.8",
     "title": "minecraft [v1.8]",
     "categories": [
-      "adventure"
+      "adventure",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/mc1.8.jpg",
     "path": "g/eagler1.8/index.html"
@@ -565,7 +560,8 @@
     "id": "mc",
     "title": "minecraft [v1.5.2]",
     "categories": [
-      "adventure"
+      "adventure",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/mc.jpg",
     "path": "g/mc/index.html"
@@ -629,7 +625,7 @@
     "id": "templerun2",
     "title": "temple run 2",
     "categories": [
-      "platformer"
+      "arcade"
     ],
     "thumbnail": "images/thumbnails/templerun2.jpg",
     "path": "g/templerun2/index.html"
@@ -697,7 +693,8 @@
     "id": "baldisbasics",
     "title": "baldi's basics",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/baldisbasics.jpg",
     "path": "g/baldisbasics/index.html"
@@ -706,7 +703,8 @@
     "id": "pizzatower",
     "title": "pizza tower",
     "categories": [
-      "platformer"
+      "platformer",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/pizzatower.jpg",
     "path": "g/pizzatower/index.html"
@@ -724,7 +722,7 @@
     "id": "10minutestilldawn",
     "title": "10 minutes till dawn",
     "categories": [
-      "arcade"
+      "shooter"
     ],
     "thumbnail": "images/thumbnails/10minutestilldawn.jpg",
     "path": "g/10minutestilldawn/index.html"
@@ -880,7 +878,8 @@
     "id": "sm64",
     "title": "super mario 64",
     "categories": [
-      "platformer"
+      "platformer",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/sm64.jpg",
     "path": "g/sm64/index.html"
@@ -983,7 +982,8 @@
     "id": "townscaper",
     "title": "townscaper",
     "categories": [
-      "simulation"
+      "simulation",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/townscaper.jpg",
     "path": "g/townscaper/index.html"
@@ -1249,7 +1249,7 @@
     "id": "thereisnogame",
     "title": "there is no game",
     "categories": [
-      "arcade"
+      "puzzle"
     ],
     "thumbnail": "images/thumbnails/thereisnogame.jpg",
     "path": "g/thereisnogame/index.html"
@@ -1330,7 +1330,7 @@
     "id": "thelegendofzelda",
     "title": "the legend of zelda",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/thelegendofzelda.jpg",
@@ -1399,7 +1399,8 @@
     "id": "dokidokiliteratureclub",
     "title": "doki doki literature club",
     "categories": [
-      "horror"
+      "horror",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/dokidokiliteratureclub.jpg",
     "path": "g/dokidokiliteratureclub/index.html"
@@ -1556,7 +1557,7 @@
     "id": "superstarsaga",
     "title": "superstar saga",
     "categories": [
-      "platformer",
+      "rpg",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/superstarsaga.jpg",
@@ -1566,7 +1567,8 @@
     "id": "adofai",
     "title": "adofai",
     "categories": [
-      "arcade"
+      "arcade",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/adofai.jpg",
     "path": "g/adofai/index.html"
@@ -1596,7 +1598,7 @@
     "id": "defendthetank",
     "title": "defend the tank",
     "categories": [
-      "arcade"
+      "strategy"
     ],
     "thumbnail": "images/thumbnails/defendthetank.jpg",
     "path": "g/defendthetank/index.html"
@@ -1644,7 +1646,7 @@
     "id": "battleships",
     "title": "battleships",
     "categories": [
-      "arcade",
+      "strategy",
       "flash"
     ],
     "thumbnail": "images/thumbnails/battleships.jpg",
@@ -1694,7 +1696,7 @@
     "id": "linerider",
     "title": "line rider",
     "categories": [
-      "platformer",
+      "simulation",
       "flash"
     ],
     "thumbnail": "images/thumbnails/linerider.jpg",
@@ -1715,7 +1717,7 @@
     "id": "raftwars2",
     "title": "raft wars 2",
     "categories": [
-      "arcade",
+      "strategy",
       "flash"
     ],
     "thumbnail": "images/thumbnails/raftwars2.jpg",
@@ -1814,7 +1816,7 @@
     "id": "doodledefender",
     "title": "doodle defender",
     "categories": [
-      "arcade",
+      "strategy",
       "flash"
     ],
     "thumbnail": "images/thumbnails/doodledefender.jpg",
@@ -1864,7 +1866,7 @@
     "id": "raftwars",
     "title": "raft wars",
     "categories": [
-      "arcade",
+      "strategy",
       "flash"
     ],
     "thumbnail": "images/thumbnails/raftwars.jpg",
@@ -1894,7 +1896,7 @@
     "id": "aceattorney",
     "title": "ace attorney",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/aceattorney.jpg",
@@ -1904,7 +1906,7 @@
     "id": "metalgearsolid",
     "title": "metal gear solid",
     "categories": [
-      "shooter",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/metalgearsolid.jpg",
@@ -1954,7 +1956,7 @@
     "id": "advancewars",
     "title": "advance wars",
     "categories": [
-      "rpg",
+      "strategy",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/advancewars.jpg",
@@ -2063,7 +2065,7 @@
     "id": "wormsworldparty",
     "title": "worms world party",
     "categories": [
-      "adventure",
+      "strategy",
       "emulator",
       "2 player"
     ],
@@ -2168,7 +2170,7 @@
     "id": "ocarinaoftime",
     "title": "ocarina of time",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/ocarinaoftime.jpg",
@@ -2178,7 +2180,7 @@
     "id": "starfox64",
     "title": "star fox 64",
     "categories": [
-      "adventure",
+      "shooter",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/starfox64.jpg",
@@ -2249,7 +2251,7 @@
     "id": "advancewars2",
     "title": "advance wars 2",
     "categories": [
-      "rpg",
+      "strategy",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/advancewars2.jpg",
@@ -2380,7 +2382,7 @@
     "id": "factoryballs",
     "title": "factory balls",
     "categories": [
-      "arcade",
+      "puzzle",
       "flash"
     ],
     "thumbnail": "images/thumbnails/factoryballs.jpg",
@@ -2390,7 +2392,7 @@
     "id": "skywire",
     "title": "skywire",
     "categories": [
-      "arcade",
+      "puzzle",
       "flash"
     ],
     "thumbnail": "images/thumbnails/skywire.jpg",
@@ -2512,7 +2514,7 @@
     "id": "skywire2",
     "title": "skywire 2",
     "categories": [
-      "arcade",
+      "puzzle",
       "flash"
     ],
     "thumbnail": "images/thumbnails/skywire2.jpg",
@@ -2578,7 +2580,7 @@
     "id": "majorasmask",
     "title": "majora's mask",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/majorasmask.jpg",
@@ -2662,7 +2664,7 @@
     "id": "bowsersinsidestory",
     "title": "bowsers inside story",
     "categories": [
-      "simulation",
+      "rpg",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/bowsersinsidestory.jpg",
@@ -2672,7 +2674,7 @@
     "id": "spirittracks",
     "title": "spirit tracks",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/spirittracks.jpg",
@@ -2782,7 +2784,7 @@
     "id": "pacmanworld",
     "title": "pacman world",
     "categories": [
-      "adventure",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/pacmanworld.jpg",
@@ -2916,7 +2918,7 @@
     "id": "swordsandsandals",
     "title": "swords and sandals",
     "categories": [
-      "arcade",
+      "rpg",
       "flash"
     ],
     "thumbnail": "images/thumbnails/swordsandsandals.jpg",
@@ -2926,7 +2928,7 @@
     "id": "swordsandsandals2",
     "title": "swords and sandals 2",
     "categories": [
-      "arcade",
+      "rpg",
       "flash"
     ],
     "thumbnail": "images/thumbnails/swordsandsandals2.jpg",
@@ -3019,7 +3021,7 @@
     "id": "linktothepast",
     "title": "link to the past",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/linktothepast.jpg",
@@ -3123,7 +3125,7 @@
     "id": "bubbletanks2",
     "title": "bubble tanks 2",
     "categories": [
-      "arcade",
+      "shooter",
       "flash"
     ],
     "thumbnail": "images/thumbnails/bubbletanks2.jpg",
@@ -3194,7 +3196,7 @@
     "id": "cars2",
     "title": "cars 2",
     "categories": [
-      "adventure",
+      "racing",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/cars2.jpg",
@@ -3244,7 +3246,7 @@
     "id": "kirbypowerpaintbrush",
     "title": "kirby power paintbrush",
     "categories": [
-      "adventure",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/kirbypowerpaintbrush.jpg",
@@ -3264,7 +3266,7 @@
     "id": "alteredbeast",
     "title": "altered beast",
     "categories": [
-      "platformer",
+      "arcade",
       "emulator",
       "2 player"
     ],
@@ -3307,7 +3309,7 @@
     "id": "goldenaxe",
     "title": "golden axe",
     "categories": [
-      "adventure",
+      "arcade",
       "emulator",
       "2 player"
     ],
@@ -3346,7 +3348,7 @@
     "id": "clickerheroes",
     "title": "clicker heroes",
     "categories": [
-      "arcade"
+      "simulation"
     ],
     "thumbnail": "images/thumbnails/clickerheroes.jpg",
     "path": "g/clickerheroes/index.html"
@@ -3355,7 +3357,7 @@
     "id": "stairrace3d",
     "title": "stair race 3d",
     "categories": [
-      "arcade"
+      "racing"
     ],
     "thumbnail": "images/thumbnails/stairrace3d.jpg",
     "path": "g/stairrace3d/index.html"
@@ -3824,7 +3826,7 @@
     "id": "sandtrix",
     "title": "sandtrix",
     "categories": [
-      "arcade"
+      "puzzle"
     ],
     "thumbnail": "images/thumbnails/sandtrix.jpg",
     "path": "g/sandtrix/index.html"
@@ -3954,7 +3956,7 @@
     "id": "pool",
     "title": "pool",
     "categories": [
-      "arcade",
+      "sports",
       "flash"
     ],
     "thumbnail": "images/thumbnails/pool.jpg",
@@ -4083,7 +4085,7 @@
     "id": "kidicarus",
     "title": "kid icarus",
     "categories": [
-      "arcade",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/kidicarus.jpg",
@@ -4185,7 +4187,7 @@
     "id": "supermetroid",
     "title": "super metroid",
     "categories": [
-      "platformer",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/supermetroid.jpg",
@@ -4245,7 +4247,7 @@
     "id": "yoshisstory",
     "title": "yoshi's story",
     "categories": [
-      "adventure",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/yoshisstory.jpg",
@@ -4265,7 +4267,7 @@
     "id": "linksawakeningdx",
     "title": "link's awakening dx",
     "categories": [
-      "rpg",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/linksawakeningdx.jpg",
@@ -4275,7 +4277,7 @@
     "id": "metroidii",
     "title": "metroid ii",
     "categories": [
-      "platformer",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/metroidii.jpg",
@@ -4285,7 +4287,7 @@
     "id": "supermarioland2",
     "title": "super mario land 2",
     "categories": [
-      "adventure",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/supermarioland2.jpg",
@@ -4295,7 +4297,7 @@
     "id": "wariolandii",
     "title": "wario land ii",
     "categories": [
-      "arcade",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/wariolandii.jpg",
@@ -4305,7 +4307,7 @@
     "id": "castlevaniaariaofsorrow",
     "title": "castlevania aria of sorrow",
     "categories": [
-      "arcade",
+      "adventure",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/castlevaniaariaofsorrow.jpg",
@@ -4325,7 +4327,7 @@
     "id": "drilldozer",
     "title": "drill dozer",
     "categories": [
-      "arcade",
+      "puzzle",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/drilldozer.jpg",
@@ -4335,7 +4337,7 @@
     "id": "advancewarsdayofruin",
     "title": "advance wars days of ruin",
     "categories": [
-      "rpg",
+      "strategy",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/advancewarsdaysofruin.jpg",
@@ -4365,7 +4367,7 @@
     "id": "marioandluigipartnersintime",
     "title": "partners in time",
     "categories": [
-      "platformer",
+      "rpg",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/marioandluigipartnersintime.jpg",
@@ -4395,7 +4397,7 @@
     "id": "gunstarheroes",
     "title": "gunstar heroes",
     "categories": [
-      "arcade",
+      "shooter",
       "emulator",
       "2 player"
     ],
@@ -4406,7 +4408,7 @@
     "id": "phantasystariv",
     "title": "phantasy star iv",
     "categories": [
-      "arcade",
+      "rpg",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/phantasystariv.jpg",
@@ -4416,7 +4418,7 @@
     "id": "rangerx",
     "title": "ranger x",
     "categories": [
-      "arcade",
+      "shooter",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/rangerx.jpg",
@@ -4426,7 +4428,7 @@
     "id": "ristar",
     "title": "ristar",
     "categories": [
-      "adventure",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/ristar.jpg",
@@ -4436,7 +4438,7 @@
     "id": "shiningforce",
     "title": "shining force",
     "categories": [
-      "arcade",
+      "rpg",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/shiningforce.jpg",
@@ -4488,7 +4490,7 @@
     "id": "vectorman",
     "title": "vectorman",
     "categories": [
-      "arcade",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/vectorman.jpg",
@@ -4498,7 +4500,7 @@
     "id": "vectorman2",
     "title": "vectorman 2",
     "categories": [
-      "arcade",
+      "platformer",
       "emulator"
     ],
     "thumbnail": "images/thumbnails/vectorman2.jpg",
@@ -4598,7 +4600,7 @@
     "id": "epicbattlefantasy",
     "title": "epic battle fantasy",
     "categories": [
-      "adventure",
+      "rpg",
       "flash"
     ],
     "thumbnail": "images/thumbnails/epicbattlefantasy.jpg",
@@ -4608,7 +4610,7 @@
     "id": "epicbattlefantasy2",
     "title": "epic battle fantasy 2",
     "categories": [
-      "adventure",
+      "rpg",
       "flash"
     ],
     "thumbnail": "images/thumbnails/epicbattlefantasy2.jpg",
@@ -4618,7 +4620,7 @@
     "id": "epicbattlefantasy3",
     "title": "epic battle fantasy 3",
     "categories": [
-      "adventure",
+      "rpg",
       "flash"
     ],
     "thumbnail": "images/thumbnails/epicbattlefantasy3.jpg",
@@ -4698,7 +4700,7 @@
     "id": "zombocalypse",
     "title": "zombocalypse",
     "categories": [
-      "arcade",
+      "shooter",
       "flash"
     ],
     "thumbnail": "images/thumbnails/zombocalpyse.jpg",
@@ -4708,7 +4710,7 @@
     "id": "zombotron",
     "title": "zombotron",
     "categories": [
-      "adventure",
+      "shooter",
       "flash"
     ],
     "thumbnail": "images/thumbnails/zombotron.jpg",
@@ -4718,7 +4720,7 @@
     "id": "zombotron2",
     "title": "zombotron 2",
     "categories": [
-      "adventure",
+      "shooter",
       "flash"
     ],
     "thumbnail": "images/thumbnails/zombotron2.jpg",
@@ -4737,7 +4739,7 @@
     "id": "csgoclicker",
     "title": "csgo clicker",
     "categories": [
-      "arcade"
+      "simulation"
     ],
     "thumbnail": "images/thumbnails/csgoclicker.jpg",
     "path": "g/csgoclicker/index.html"
@@ -4746,7 +4748,8 @@
     "id": "doom",
     "title": "doom",
     "categories": [
-      "shooter"
+      "shooter",
+      "ports"
     ],
     "thumbnail": "images/thumbnails/doom.jpg",
     "path": "g/doom/index.html"
@@ -4764,7 +4767,7 @@
     "id": "gunfest",
     "title": "gun fest",
     "categories": [
-      "puzzle"
+      "shooter"
     ],
     "thumbnail": "images/thumbnails/gunfest.jpg",
     "path": "g/gunfest/index.html"
@@ -4791,7 +4794,7 @@
     "id": "recoil",
     "title": "recoil",
     "categories": [
-      "puzzle"
+      "shooter"
     ],
     "thumbnail": "images/thumbnails/recoil.jpg",
     "path": "g/recoil/index.html"
@@ -5140,7 +5143,7 @@
     "id": "bikechamp",
     "title": "bike champ",
     "categories": [
-      "arcade",
+      "racing",
       "flash"
     ],
     "thumbnail": "images/thumbnails/bikechamp.jpg",
@@ -5150,7 +5153,7 @@
     "id": "bikechamp2",
     "title": "bike champ 2",
     "categories": [
-      "arcade",
+      "racing",
       "flash"
     ],
     "thumbnail": "images/thumbnails/bikechamp2.jpg",
