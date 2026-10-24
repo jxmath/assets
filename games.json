@@ -208,6 +208,16 @@
     "path": "g/towercrash3d/index.html"
   },
   {
+    "id": "harvestio",
+    "title": "Harvest.io",
+    "categories": [
+      ".io",
+      "simulation"
+    ],
+    "thumbnail": "images/thumbnails/harvestio.png",
+    "path": "g/harvestio/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
