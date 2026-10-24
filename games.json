@@ -115,6 +115,15 @@
     "path": "g/aquaparkio/index.html"
   },
   {
+    "id": "omnomrun",
+    "title": "Om Nom Run",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/omnomrun.png",
+    "path": "g/omnomrun/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
