@@ -188,6 +188,16 @@
     "path": "g/3dbowling/index.html"
   },
   {
+    "id": "carromclash",
+    "title": "Carrom Clash",
+    "categories": [
+      "sports",
+      "2 player"
+    ],
+    "thumbnail": "images/thumbnails/carromclash.png",
+    "path": "g/carromclash/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
