@@ -198,6 +198,15 @@
     "path": "g/carromclash/index.html"
   },
   {
+    "id": "basketballfrvr",
+    "title": "Basketball FRVR",
+    "categories": [
+      "sports"
+    ],
+    "thumbnail": "images/thumbnails/basketballfrvr.png",
+    "path": "g/basketballfrvr/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
