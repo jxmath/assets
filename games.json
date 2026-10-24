@@ -38,6 +38,16 @@
     "path": "g/schoolboyrunaway/index.html"
   },
   {
+    "id": "kindergarten",
+    "title": "Kindergarten",
+    "categories": [
+      "adventure",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/kindergarten.png",
+    "path": "g/kindergarten/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
