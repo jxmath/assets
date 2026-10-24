@@ -68,6 +68,16 @@
     "path": "g/kindergarten2/index.html"
   },
   {
+    "id": "kindergarten3",
+    "title": "Kindergarten 3",
+    "categories": [
+      "adventure",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/kindergarten3.png",
+    "path": "g/kindergarten3/index.html"
+  },
+  {
     "id": "yanderesimulator",
     "title": "Yandere Simulator",
     "categories": [
