@@ -143,6 +143,15 @@
     "path": "g/archeryworldtour/index.html"
   },
   {
+    "id": "bridgerace",
+    "title": "Bridge Race",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/bridgerace.png",
+    "path": "g/bridgerace/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
