@@ -18,6 +18,56 @@
     "path": "g/soundboard/index.html"
   },
   {
+    "id": "buckshotroulette",
+    "title": "Buckshot Roulette",
+    "categories": [
+      "horror",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/buckshotroulette.png",
+    "path": "g/buckshotroulette/index.html"
+  },
+  {
+    "id": "schoolboyrunaway",
+    "title": "Schoolboy Runaway",
+    "categories": [
+      "horror",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/schoolboyrunaway.png",
+    "path": "g/schoolboyrunaway/index.html"
+  },
+  {
+    "id": "kindergarten",
+    "title": "Kindergarten",
+    "categories": [
+      "adventure",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/kindergarten.png",
+    "path": "g/kindergarten/index.html"
+  },
+  {
+    "id": "kindergarten2",
+    "title": "Kindergarten 2",
+    "categories": [
+      "adventure",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/kindergarten2.png",
+    "path": "g/kindergarten2/index.html"
+  },
+  {
+    "id": "yanderesimulator",
+    "title": "Yandere Simulator",
+    "categories": [
+      "simulation",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/yanderesimulator.png",
+    "path": "g/yanderesimulator/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
