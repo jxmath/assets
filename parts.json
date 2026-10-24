@@ -774,5 +774,16 @@
    19922944,
    7900994
   ]
+ },
+ "g/ragdollhit/Build/f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb": {
+  "parts": [
+   "f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb.part000",
+   "f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb.part001"
+  ],
+  "size": 25480332,
+  "sizes": [
+   19922944,
+   5557388
+  ]
  }
 }
