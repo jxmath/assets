@@ -96,6 +96,15 @@
     "path": "g/stickwarlegacy/index.html"
   },
   {
+    "id": "8ballclassic",
+    "title": "8 Ball Classic",
+    "categories": [
+      "sports"
+    ],
+    "thumbnail": "images/thumbnails/8ballclassic.png",
+    "path": "g/8ballclassic/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
