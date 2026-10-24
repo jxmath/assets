@@ -18,6 +18,16 @@
     "path": "g/soundboard/index.html"
   },
   {
+    "id": "buckshotroulette",
+    "title": "Buckshot Roulette",
+    "categories": [
+      "horror",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/buckshotroulette.png",
+    "path": "g/buckshotroulette/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
