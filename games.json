@@ -58,6 +58,16 @@
     "path": "g/kindergarten2/index.html"
   },
   {
+    "id": "yanderesimulator",
+    "title": "Yandere Simulator",
+    "categories": [
+      "simulation",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/yanderesimulator.png",
+    "path": "g/yanderesimulator/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
