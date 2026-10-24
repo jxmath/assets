@@ -28,6 +28,16 @@
     "path": "g/buckshotroulette/index.html"
   },
   {
+    "id": "schoolboyrunaway",
+    "title": "Schoolboy Runaway",
+    "categories": [
+      "horror",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/schoolboyrunaway.png",
+    "path": "g/schoolboyrunaway/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
