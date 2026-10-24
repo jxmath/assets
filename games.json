@@ -124,6 +124,16 @@
     "path": "g/omnomrun/index.html"
   },
   {
+    "id": "chessclassic",
+    "title": "Chess Classic",
+    "categories": [
+      "strategy",
+      "2 player"
+    ],
+    "thumbnail": "images/thumbnails/chessclassic.png",
+    "path": "g/chessclassic/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
