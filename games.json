@@ -105,6 +105,16 @@
     "path": "g/8ballclassic/index.html"
   },
   {
+    "id": "aquaparkio",
+    "title": "Aquapark.io",
+    "categories": [
+      ".io",
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/aquaparkio.png",
+    "path": "g/aquaparkio/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
