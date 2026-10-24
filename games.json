@@ -134,6 +134,15 @@
     "path": "g/chessclassic/index.html"
   },
   {
+    "id": "archeryworldtour",
+    "title": "Archery World Tour",
+    "categories": [
+      "sports"
+    ],
+    "thumbnail": "images/thumbnails/archeryworldtour.png",
+    "path": "g/archeryworldtour/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
