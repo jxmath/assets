@@ -152,6 +152,15 @@
     "path": "g/bridgerace/index.html"
   },
   {
+    "id": "crazychicken3d",
+    "title": "Crazy Chicken 3D",
+    "categories": [
+      "shooter"
+    ],
+    "thumbnail": "images/thumbnails/crazychicken3d.png",
+    "path": "g/crazychicken3d/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
