@@ -78,6 +78,15 @@
     "path": "g/kindergarten3/index.html"
   },
   {
+    "id": "hillclimbracinglite",
+    "title": "Hill Climb Racing Lite",
+    "categories": [
+      "racing"
+    ],
+    "thumbnail": "images/thumbnails/hillclimbracinglite.png",
+    "path": "g/hillclimbracinglite/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
