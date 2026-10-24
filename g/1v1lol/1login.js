@@ -3,16 +3,20 @@ var tempProviderName;
 
 function retrieveIdToken(successCallback, errorCallback) {
 	if(firebase.auth().currentUser === null){
-		if(errorCallback !== null) 
+		if(errorCallback !== null)
 			errorCallback("User is null");
 		return;
 	}
 
 	firebase.auth().currentUser.getIdToken().then(function (idToken) {
+		console.log(idToken);
+
 		var resultObj = {
 			token: idToken,
 			displayName: firebase.auth().currentUser.displayName
 		};
+		console.log("Sending result to unity:");
+		console.log(resultObj);
 
 		if (successCallback !== undefined) {
 
@@ -31,6 +35,8 @@ function anonymousLogin(successCallback, errorCallback) {
 		token: "",
 		displayName: "guest"
 	};
+	console.log("Sending result to unity:");
+	console.log(resultObj);
 
 	if (successCallback !== undefined) {
 
@@ -57,9 +63,9 @@ function firebaseLogin(providerName, successCallback, errorCallback) {
 	//var task = firebase.auth().currentUser.isAnonymous ? firebase.auth().signInWithPopup(provider) : firebase.auth().linkWithPopup(provider);
 
 	firebase.auth().signInWithPopup(provider).then(function (result) {
-			console.log("Successful sign in");
-			retrieveIdToken(successCallback, errorCallback);
-		})
+		console.log("Successful sign in");
+		retrieveIdToken(successCallback, errorCallback);
+	})
 		.catch(function (error) {
 			// Handle Errors here.
 			var errorCode = error.code;
