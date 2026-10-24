@@ -48,6 +48,16 @@
     "path": "g/kindergarten/index.html"
   },
   {
+    "id": "kindergarten2",
+    "title": "Kindergarten 2",
+    "categories": [
+      "adventure",
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/kindergarten2.png",
+    "path": "g/kindergarten2/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
