@@ -227,6 +227,15 @@
     "path": "g/cannonballs3d/index.html"
   },
   {
+    "id": "hidenseek",
+    "title": "Hide N Seek",
+    "categories": [
+      "arcade"
+    ],
+    "thumbnail": "images/thumbnails/hidenseek.png",
+    "path": "g/hidenseek/index.html"
+  },
+  {
     "id": "pokeyball",
     "title": "Pokey Ball",
     "categories": [
