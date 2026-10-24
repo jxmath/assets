@@ -87,6 +87,15 @@
     "path": "g/hillclimbracinglite/index.html"
   },
   {
+    "id": "stickwarlegacy",
+    "title": "Stick War: Legacy",
+    "categories": [
+      "strategy"
+    ],
+    "thumbnail": "images/thumbnails/stickwarlegacy.png",
+    "path": "g/stickwarlegacy/index.html"
+  },
+  {
     "id": "basketballstars",
     "title": "basketball stars",
     "categories": [
