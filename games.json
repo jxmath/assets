@@ -92,6 +92,15 @@
     "path": "g/bazookaboy/index.html"
   },
   {
+    "id": "digdeep",
+    "title": "Dig Deep",
+    "categories": [
+      "simulation"
+    ],
+    "thumbnail": "images/thumbnails/digdeep.png",
+    "path": "g/digdeep/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
