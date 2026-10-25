@@ -83,6 +83,15 @@
     "path": "g/gladihoppers/index.html"
   },
   {
+    "id": "bazookaboy",
+    "title": "Bazooka Boy",
+    "categories": [
+      "shooter"
+    ],
+    "thumbnail": "images/thumbnails/bazookaboy.png",
+    "path": "g/bazookaboy/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
