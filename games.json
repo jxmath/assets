@@ -74,6 +74,15 @@
     "path": "g/drivenwild/index.html"
   },
   {
+    "id": "gladihoppers",
+    "title": "Gladihoppers",
+    "categories": [
+      "strategy"
+    ],
+    "thumbnail": "images/thumbnails/gladihoppers.png",
+    "path": "g/gladihoppers/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
