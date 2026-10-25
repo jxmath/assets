@@ -46,6 +46,15 @@
     "path": "g/motox3m2/index.html"
   },
   {
+    "id": "vexx3m2",
+    "title": "Vex X3M 2",
+    "categories": [
+      "platformer"
+    ],
+    "thumbnail": "images/thumbnails/vexx3m2.png",
+    "path": "g/vexx3m2/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
