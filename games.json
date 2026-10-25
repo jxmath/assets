@@ -37,6 +37,15 @@
     "path": "g/mobcontrolhtml5/index.html"
   },
   {
+    "id": "motox3m2",
+    "title": "Moto X3M 2",
+    "categories": [
+      "racing"
+    ],
+    "thumbnail": "images/thumbnails/motox3m2.png",
+    "path": "g/motox3m2/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
