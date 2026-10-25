@@ -110,6 +110,15 @@
     "path": "g/turbostars/index.html"
   },
   {
+    "id": "colormatch",
+    "title": "Color Match",
+    "categories": [
+      "puzzle"
+    ],
+    "thumbnail": "images/thumbnails/colormatch.png",
+    "path": "g/colormatch/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
