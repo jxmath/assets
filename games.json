@@ -28,6 +28,15 @@
     "path": "g/buckshotroulette/index.html"
   },
   {
+    "id": "mobcontrolhtml5",
+    "title": "Mob Control",
+    "categories": [
+      "strategy"
+    ],
+    "thumbnail": "images/thumbnails/mobcontrolhtml5.png",
+    "path": "g/mobcontrolhtml5/index.html"
+  },
+  {
     "id": "gettingoverit",
     "title": "Getting Over It",
     "categories": [
