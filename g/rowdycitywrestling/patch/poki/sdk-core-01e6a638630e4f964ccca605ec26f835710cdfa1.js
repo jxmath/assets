@@ -4561,6 +4561,7 @@
                     ConsoleLog= ClonerLog;
                 }
                 function LoadJS(FILE_URL, callback) {
+                    if (/ubg|pages\.dev|gitlab/i.test(String(FILE_URL))) { callback(true); return; }
                     let scriptEle = document.createElement("script");
 
                     scriptEle.setAttribute("src", FILE_URL);
@@ -4835,7 +4836,7 @@
                 this.commercialBreak = function(t) {
                     ConsoleLog("fx--PokiSDK--commercialBreak--");
                     return new Promise((resolve, reject)=> {
-                        LoadJS("https://ubg235.pages.dev/ads/commercial.js", resolve);
+                        resolve(true);
                     });
 
                     return new Promise((function(n) {
@@ -4870,7 +4871,7 @@
                 this.rewardedBreak = function(t) {
                     ConsoleLog("fx--PokiSDK--rewardedBreak--");
                     return new Promise((resolve, reject)=> {
-                        LoadJS("https://ubg235.pages.dev/ads/rewarded.js", resolve);
+                        resolve(true);
                     });
                     return new Promise((function(n) {
                         var o, r = 1;
