@@ -26,6 +26,15 @@
     "thumbnail": "images/thumbnails/rowdycitywrestling.png",
     "path": "g/rowdycitywrestling/index.html"
   },
+   {
+    "id": "brotato",
+    "title": "brotato",
+    "categories": [
+      "ports"
+    ],
+    "thumbnail": "images/thumbnails/brotato.png",
+    "path": "g/brotato/index.html"
+  },
   {
     "id": "eagler1.8",
     "title": "minecraft [v1.8]",
