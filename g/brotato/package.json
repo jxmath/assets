@@ -1,0 +1,8 @@
+{
+  "name": "brotato",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes http-server . -p 3000 -c-1 -o"
+  }
+}
